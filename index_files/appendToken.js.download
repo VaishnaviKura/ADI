@@ -1,0 +1,57 @@
+function appendCSRFTokenByFormId(id){
+	var url=document.getElementById(id);
+	
+	if(url != null){
+	if(url.action.indexOf("JFP_TOKEN") == -1)
+	{
+		if (url.action.indexOf("?") > 0) 
+		{
+			url.setAttribute("action",url.action+="&JFP_TOKEN="+JFP_CSRF_TOKEN);
+		} 
+		else 
+		{
+			url.setAttribute("action",url.action+="?JFP_TOKEN="+JFP_CSRF_TOKEN);
+			
+		}
+	}
+	}
+	
+}
+
+function appendCSRFTokenByAnchorId(id){
+	var url=document.getElementById(id);
+	
+	if(url != null){
+	if(url.href.indexOf("JFP_TOKEN") == -1)
+	{
+		if (url.href.indexOf("?") > 0) 
+		{
+			url.setAttribute("href",url.href+="&JFP_TOKEN="+JFP_CSRF_TOKEN);
+		} 
+		else 
+		{
+			url.setAttribute("href",url.href+="?JFP_TOKEN="+JFP_CSRF_TOKEN);
+			
+		}
+	}
+	}
+}
+
+function appendCSRFTokenByImageId(id){
+	var url=document.getElementById(id);
+	
+	if(url != null){
+	if(url.src.indexOf("JFP_TOKEN") == -1)
+	{
+		if (url.src.indexOf("?") > 0) 
+		{
+			url.setAttribute("src",url.src+="&JFP_TOKEN="+JFP_CSRF_TOKEN);
+		} 
+		else 
+		{
+			url.setAttribute("src",url.src+="?JFP_TOKEN="+JFP_CSRF_TOKEN);
+			
+		}
+	}
+	}
+}

@@ -1,0 +1,3893 @@
+@font-face {
+    font-family: 'Interstate-Regular';
+    src: url('/JFP/fonts/Interstate-Regular.ttf')
+} 
+.responsiveBrn.site-header{
+    min-height: 134px !important;
+  //min-width:991px;
+}
+#subnav_inner .sia-nav_submenu .mm_subnav img{
+margin-bottom:0px;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .profileIconMobile{
+    background: url(/CBOL/IAServicing/images/icon-profile-normal.svg);
+    width: 18.9px;
+    height: 18.9px;
+    display: inline-block;
+    background-size: 18.9px 18.9px;
+    float: left;
+	margin-left:16px;
+}
+#citiBrandingSection{
+background-color:#ffffff;
+}
+#citiBrandingSection .pull-right li{
+	margin-bottom:0px;
+}
+#mobileLogo{
+display:none;
+}
+#mobileDrop{
+position:relative;
+}
+.cbolui-ddl-pre #citiBrandingSection .redeisgnright.pull-right{
+margin-top: 5px;
+  margin-right: 24px;
+}
+.middleSection1{
+    float: left;
+    width: 215px;
+    padding-left:0px;
+}
+.middleSection2{
+    float: 240px;
+     float: left;
+     padding-left:0px;
+}
+
+.middleSection{
+	float: left;
+    width: 230px;
+    padding-left:0px;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.dropdown-toggle:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.dropdown-toggle:focus{
+color:#fff !important;
+}
+.quickLinksMob{
+font-family: Interstate-Regular !important;
+font-weight: 600 !important;
+font-size: 12px !important;
+color: #666666;
+letter-spacing: 0;
+line-height: 20px !important;
+padding: 30px 0px 10px 0px;
+}
+.qlinksTextMob{
+font-family: Interstate_Light;
+font-size: 16px !important;
+color: #333333 !important;
+letter-spacing: 0;
+line-height: 22px !important;
+
+}
+.qlinkImg{
+width:20px;
+height:20px;
+margin-right: 13px;
+vertical-align: middle;
+}
+.qsublinks{
+padding-left:17px !important;
+margin-bottom: 0px !important;
+height: 48px;
+}
+#atmBranchPostMob img, #atmBranchMob img, #localeMob img {
+    //filter: invert(30%) sepia(96%) saturate(1980%) hue-rotate(214deg) brightness(97%) contrast(162%);
+    filter: invert(.5) sepia(1) saturate(70) hue-rotate(178deg);
+}
+#atmBranchPostMob img,
+#atmBranchMob img,
+#localeMob img{
+//filter: invert(30%) sepia(96%) saturate(1980%) hue-rotate(214deg) brightness(97%) contrast(162%);
+}
+#profileSettings .dropdown-toggle:hover {
+    filter: invert(24%) sepia(86%) saturate(1811%) hue-rotate(183deg) brightness(97%) contrast(96%);
+    }
+	#profileSettingsMB .dropdown-toggle:hover {
+    filter: invert(24%) sepia(86%) saturate(1811%) hue-rotate(183deg) brightness(97%) contrast(96%);
+    }
+#atmbrnch:hover, #atmbrnchdesk:hover{
+	filter: invert(24%) sepia(86%) saturate(1811%) hue-rotate(183deg) brightness(97%) contrast(96%);
+}
+#spanishDisclaimerLink:hover, .englishlang:hover, #spanishDisclaimerLinkdesk:hover{
+
+    filter: invert(24%) sepia(86%) saturate(1811%) hue-rotate(183deg) brightness(97%) contrast(96%);
+}
+.Gold #atmbrnch:hover, .CPC #atmbrnch:hover, .PrivateClient #atmbrnch:hover,
+.Gold #atmbrnchdesk:hover, .CPC #atmbrnchdesk:hover, .PrivateClient #atmbrnchdesk:hover,
+.Gold #profileSettings .dropdown-toggle:hover, .CPC #profileSettings .dropdown-toggle:hover, .PrivateClient #profileSettings .dropdown-toggle:hover,
+.Gold #profileSettingsMB .dropdown-toggle:hover, .CPC #profileSettingsMB .dropdown-toggle:hover, .PrivateClient #profileSettingsMB .dropdown-toggle:hover{
+	filter: invert(33%) sepia(16%) saturate(7210%) hue-rotate(32deg) brightness(99%) contrast(61%);
+	color:#8E6F32 !important;
+}
+
+
+.Gold #spanishDisclaimerLink:hover, .CPC #spanishDisclaimerLink:hover, .PrivateClient #spanishDisclaimerLink:hover, 
+.Gold #spanishDisclaimerLinkdesk:hover, .CPC #spanishDisclaimerLinkdesk:hover, .PrivateClient #spanishDisclaimerLinkdesk:hover, 
+.Gold .englishlang:hover, .CPC .englishlang:hover, .PrivateClient .englishlang:hover{
+	filter: invert(33%) sepia(16%) saturate(7210%) hue-rotate(32deg) brightness(99%) contrast(61%);
+	color:#8E6F32 !important;
+}
+.Priority #atmbrnch:hover,.Priority #atmbrnchdesk:hover{
+	filter: invert(13%) sepia(44%) saturate(1469%) hue-rotate(177deg) brightness(92%) contrast(95%);
+}
+.Priority #spanishDisclaimerLink:hover, .Priority #spanishDisclaimerLinkdesk:hover{
+	filter: invert(13%) sepia(44%) saturate(1469%) hue-rotate(177deg) brightness(92%) contrast(95%);
+}
+
+
+.alternateSkipNav {
+position: absolute;
+transform: translateY(-100%);
+padding: 3px;
+}
+
+.alternateSkipNav:focus {
+transform: translateY(0%);
+position: relative !important;
+}
+
+
+.responsiveBrn #navigationBar{
+ height: 46px !important;
+	top: 89px !important;
+	border-bottom: none !important;
+	    z-index: 50;
+		width: 100%;
+		  background: #002D72;
+}
+.responsiveBrn #navigationBar_inner li a{
+color: #fff;
+}
+.responsiveBrn #navigationBar_inner #primary_navigationBar li{
+float:left;
+    //padding-left: 20px;
+    //padding-right: 20px;
+}
+
+.responsiveBrn #navigationBar_inner #primary_navigationBar .hcolor:hover,
+.responsiveBrn #navigationBar_inner #primary_navigationBar .hcolor:active,
+.responsiveBrn #navigationBar_inner #primary_navigationBar .hcolor:focus,
+.responsiveBrn #navigationBar_inner #primary_navigationBar .hcolor:focus-within
+{
+	  background-color: #056DAE;
+}
+
+.responsiveBrn #navigationBar_inner #primary_navigationBar a {
+    padding-top: 13px;
+	padding-bottom: 9px;
+    margin-bottom: 9px;
+}
+.maxWidthInner{
+//max-width: 1600px;
+}
+#navigationBar_inner {
+    z-index: 15;
+    height: 46px;
+	width:100% !important;
+	position: absolute;
+	    padding-left: 1.4%;
+    padding-right: 2.4%;
+}
+#navigationBarMenu{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+#navigationBarMenu,
+#primary_navigationBar{
+ height: 46px;
+	width:100% !important;
+}
+
+#preDropImg{
+height: 64px;
+width: 64px;
+margin-right: 12px;
+}
+#openAnAccount{
+    font-family: Interstate_Bold;
+}
+.rightLinks{
+
+  float:right !important;
+height: 46px;
+//padding-right: 16px;
+}
+#newSearchNav{
+     //  float: left;
+   // margin-top: -25px;
+   //left: -22px;
+    //position: relative;
+}
+
+ 
+
+#searchLi{
+height: 46px;
+font-size: 16px!important;
+    font-family: Interstate_Light,sans-serif!important;
+    margin-right: 10px !important;
+   // padding-right: 5px;
+}
+.divider {
+    padding-left: 0px !important;
+    padding-right: 0 !important;
+    border-right: 1px solid #fff;
+    height: 27px;
+    margin-top: 9px;
+}
+#newSearchNav span {
+    color: #fff;
+    font-family: Interstate_Bold;
+	font-style: normal;
+	font-size:16px;
+}
+#search_icon{
+width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.responsiveBrn .sia-nav_submenus{
+    width: 100%;
+    //left: 0;
+}
+.responsiveBrn .sia-nav_submenus ul.sia-nav_submenu {
+    width: 100%;
+}
+.sia-nav_submenus .sia-nav_submenu li{
+ padding-left:2.8% !important; 
+}
+#creditCardsLi .mm_subnav{
+ width: 30% !important;
+}
+#bankingLi .mm_subnav{
+width:26% !important;
+}
+
+#citiGoldLi .mm_subnav{
+//width:50% !important;
+}
+
+#lendingLi .mm_subnav{
+//width: 37% !important;
+}
+#investingLi .mm_subnav{
+   // width: 51% !important;
+}
+#bankingLi .mm_subnav,
+#creditCardsLi .mm_subnav {
+   //padding-left: 0px !important;
+    //margin-right: 1.4% !important;
+	//padding-bottom: 1.334%;
+	//margin-top: 2.134%;
+	
+}
+
+#investingLi .mm_subnav,
+#lendingLi .mm_subnav{
+ //padding-left: 0px !important;
+   // padding-right: 2.9% !important;
+
+	//margin-top: 2.61%;
+}
+#citiGoldLi .mm_subnav{
+//margin-top: 3.3%;
+ //padding-left: 33px !important;
+    //padding-right: 2% !important;
+	//margin-bottom: 2.342%;
+}
+#investingLi .mm_subnav a,
+#lendingLi .mm_subnav a{
+//padding-left: 0px !important;
+// padding-top: 0px !important;
+ //padding-right: 0px !important;
+// padding-bottom: 0px !important;
+}
+
+.preBorder,
+.preBorder:hover{
+//border-bottom: 0px !important;
+}
+#investingHeading,
+#investingLinkText,
+#lendingHeading,
+#lendingLinkText{
+float:left;
+width:100%
+}
+#investingHeading,
+#lendingHeading{
+color:#002D72;
+font-family:Interstate_Bold;
+font-size:20px;
+line-height: 24px;
+margin-bottom: 8px;
+}
+#investingLinkText,
+#lendingLinkText{
+color:#333;
+font-family:Interstate_Light;
+font-size:16px;
+line-height:22px;
+}
+
+#bankingLi .mm_subnav a,
+#creditCardsLi .mm_subnav a,
+#lendingLi .mm_subnav a,
+#investingLi .mm_subnav a,
+#citiGoldLi .mm_subnav a{
+ padding-left: 0px !important;
+ padding-top: 0px !important;
+ padding-right: 0px !important;
+ padding-bottom: 0px !important;
+ color: #333!important;
+}
+
+#bankingLi .mm_subnav a:hover,
+#creditCardsLi .mm_subnav a:hover,
+#lendingLi .mm_subnav a:hover,
+#investingLi .mm_subnav a:hover,
+#citiGoldLi .mm_subnav a:hover{
+color:#056DAE !important;
+text-decoration: underline !important;
+}
+#bankingLi .sia-nav_submenu,
+#creditCardsLi .sia-nav_submenu,
+#investingLi .sia-nav_submenu,
+#lendingLi .sia-nav_submenu,
+#citiGoldLi .sia-nav_submenu{
+padding-left: 1%;
+padding-right: 6.25%;
+padding-bottom: 1.5%;
+padding-top:1%;
+margin-top:-4px;
+}
+
+
+/*#investingLi .sia-nav_submenu,
+#lendingLi .sia-nav_submenu{
+padding-left: 7.3%;
+padding-right: 7.3%;
+}*/
+#citiGoldLi .sia-nav_submenu
+{
+//padding-left: 4.3%;
+//padding-right: 7.3%;
+}
+
+#investingImg,
+#lendingImg {
+    height: 120px;
+    width: 216px;
+	margin-bottom: 24px;
+}
+#citigoldHeading {
+    font-family: Interstate_Bold;
+    font-size: 24px;
+    color: #8E6F32;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+#citiGoldText {
+    width: 100%;
+    float: left;
+    font-family: Interstate_Light;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 22px;
+	margin-top:16px;
+	margin-bottom:24px;
+}
+#citiGoldDescription{
+border-right: 1px solid #999;
+}
+#citiGoldBtn{
+float: left;
+    width: 200px;
+    height: 48px;
+    line-height: 9px;
+	background: #002D72;
+    border-color: #002D72;
+	text-decoration: none;
+	}
+#citiGoldBtn:hover,
+#citiGoldBtn:active{
+background: #056DAE;
+    border-color: #056DAE;
+}
+.citigoldQLList {
+    list-style: none;
+    width: 296px;
+}	
+.citigoldQLList a{
+font-family: Interstate_Regular;
+font-size: 14px;
+color: #8E6F32 !important;
+letter-spacing: 0;
+line-height: 18px;
+}
+	
+li#creditCardsLi:hover .sia-nav_submenu,
+li#creditCardsLi:hover .sia-nav_submenus,
+li#bankingLi:hover .sia-nav_submenu,
+li#bankingLi:hover .sia-nav_submenus,
+li#investingLi:hover .sia-nav_submenu,
+li#investingLi:hover .sia-nav_submenus,
+li#lendingLi:hover .sia-nav_submenu,
+li#lendingLi:hover .sia-nav_submenus,
+li#citiGoldLi:hover .sia-nav_submenu,
+li#citiGoldLi:hover .sia-nav_submenus,
+li#creditCardsLi:focus .sia-nav_submenu,
+li#creditCardsLi:focus .sia-nav_submenus,
+li#bankingLi:focus .sia-nav_submenu,
+li#bankingLi:focus .sia-nav_submenus,
+li#investingLi:focus .sia-nav_submenu,
+li#investingLi:focus .sia-nav_submenus,
+li#lendingLi:focus .sia-nav_submenu,
+li#lendingLi:focus .sia-nav_submenus,
+li#citiGoldLi:focus .sia-nav_submenu,
+li#citiGoldLi:focus .sia-nav_submenus,
+li#creditCardsLi:focus-within .sia-nav_submenus,
+
+li#bankingLi:focus-within .sia-nav_submenus,
+
+li#investingLi:focus-within .sia-nav_submenus,
+
+li#lendingLi:focus-within .sia-nav_submenus,
+
+li#citiGoldLi:focus-within .sia-nav_submenus
+{
+    display: block !important;
+	position:absolute;
+  margin-top:-2px;
+}
+
+.sia-nav_submenu li{
+float:none !important;
+  //line-height: 22px;
+    //padding-top: 1%;
+}
+
+.responsiveBrn #subnav{
+ height: 46px !important;
+	top: 89px !important;
+	border-bottom: none !important;
+	    z-index: 50;
+		width: 100%;
+		  background: #002D72;
+          
+}
+.responsiveBrn #subnav_inner li a{
+color: #FFFFFF;
+}
+.responsiveBrn #subnav_inner #primary_nav li{
+float:left;
+    //padding-left: 20px;
+    //padding-right: 20px;
+}
+
+.responsiveBrn #subnav_inner #primary_nav .hcolor:hover,
+.responsiveBrn #subnav_inner #primary_nav .hcolor:active,
+.responsiveBrn #subnav_inner #primary_nav .hcolor:focus,
+.responsiveBrn #subnav_inner #primary_nav .hcolor:focus-within
+{
+	  
+  background-color: #056DAE;
+}
+
+.responsiveBrn #subnav_inner #primary_nav a {
+   // padding-top: 13px;
+	//padding-bottom: 9px;
+    padding: 13px 16px 9px 16px;
+color:#fff;
+}
+.maxWidthInner{
+//max-width: 1600px;
+}
+#subnav_inner {
+    z-index: 15;
+    height: 46px;
+    width:97%;
+    position: absolute;
+    padding-left: 1.4%;
+   //
+    padding-right: 2.4%;
+}
+#main-nav,
+#primary_nav{
+ height: 46px;
+	//width:100% !important;
+   }
+#main-nav{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.responsiveBrn #subnav_inner .dropbtn{
+color:#fff !important;
+}
+#citiBrandingSection a:focus{
+    outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+	
+}
+#navigationBarMenu a:focus{
+  outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+//color:#fff !important;
+}
+
+.responsiveBrn #navigationBar_inner #primary_navigationBar .hcolor a:hover, .responsiveBrn #navigationBar_inner #primary_navigationBar .hcolor a:active{
+
+	  // background-color: #056DAE;
+          //color:#fff !important;  
+}
+li#creditCardsLi a.dropbtn:hover,
+li#bankingLi a.dropbtn:hover,
+li#investingLi a.dropbtn:hover,
+li#lendingLi a.dropbtn:hover,
+li#citiGoldLi a.dropbtn:hover,
+li#openAnAccount a#citiGold_Link:hover,
+li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:hover,
+li#signOnOffLi a:hover,
+li#creditCardsLi a.dropbtn:focus,
+li#bankingLi a.dropbtn:focus,
+li#investingLi a.dropbtn:focus,
+li#lendingLi a.dropbtn:focus,
+li#citiGoldLi a.dropbtn:focus,
+li#openAnAccount a#citiGold_Link:focus,
+li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:focus,
+li#signOnOffLi a.signOffBtn:hover,
+li#signOnOffLi a.signOffBtn:focus,
+li#signOnOffLi a:focus
+{
+	background-color: #056DAE;
+	color:#fff !important;  
+}
+
+
+.responsiveBrn #subnav_inner .mobileUL li a{
+padding : 0 !important;
+}
+
+.mobileUL #mobile{
+    width: 58px;
+    height: 46px !important;
+	}
+	#mobileMenu{
+	width: 26px !important;
+    height: 26px;
+    float: left;
+	}
+	.mobileUL{
+	width: 100%;
+    height: 46px;
+    margin: 0 !important;
+	list-style: none;
+	}
+	.bgcolour {
+	background-color: #056DAE !important;
+	}
+	.bgcolour.Gold{
+      background-color: #163C6A !important;
+    }
+	.bgcolour.gold{
+      background-color: #163C6A !important;
+    }
+	.bgcolour.Priority{
+      background-color: #0E2A48 !important;
+    }
+	.bgcolour.logo_priority{
+      background-color: #0E2A48  !important;
+    }
+	.bgcolour.CPC{
+      background-color: #8E6F32 !important;
+    }
+	.bgcolour.PrivateClient{
+      background-color: #8E6F32 !important;
+    }
+	.bgcolour.PrivateBank{
+      background-color: #666666  !important;
+    }
+	.citiPBAccount .bgcolour{
+ background-color: #666666 !important;
+}
+
+.citiPrivateClient .bgcolour{
+ background-color: #8E6F32 !important;
+}
+
+.citiGoldAccount .bgcolour{
+ background-color: #163C6A !important;
+}
+.citiPriorityAccount .bgcolour{
+  background-color: #0E2A48 !important;
+}
+.pull-right.CPC .bgcolour{
+ background-color: #8E6F32 !important;
+}
+
+.pull-right.gold .bgcolour{
+ background-color: #8E6F32 !important;
+}
+
+.pull-right.PrivateClient .bgcolour{
+ background-color: #8E6F32 !important;
+}
+.pull-right.logo_priority .bgcolour{
+    background-color: #0E2A48 !important;
+}
+
+	
+.responsiveBrn #subnav_inner .mobileUL #mobile .mobile{
+margin-top: 10px;
+margin-right: 16px;
+margin-bottom: 0px;
+margin-left:16px;
+}
+.responsiveBrn #subnav_inner .mobileUL #searchLi
+{
+margin-bottom: 0px;
+padding-top: 13px;
+padding-right: 16px;
+height: 46px;
+}
+.responsiveBrn #subnav_inner .mobileUL #signOnOffLi{
+    padding-top: 13px;
+    padding-left: 10px;
+    margin-bottom: 0 !important;
+    height: 46px;
+    padding-right: 10px;
+}
+.responsiveBrn #subnav_inner .mobileUL li a{
+padding : 0 !important;
+}
+
+#citiGoldMobLi,
+#localeMob,
+#atmBranchMob{
+margin-bottom:0px;
+}
+.sia-nav_submenus .sia-nav_submenu_mobile button{
+font-family: Interstate-Regular !important;
+color: #000000 !important;
+padding-left: 50px !important;
+outline: none;
+font-size: 16px;
+}
+.mobileBorder{
+margin: 0 16px !important;
+border-top: 1px solid #F4F4F4 !important;
+}
+#atmBranchMob,
+#localeMob,
+#citiGoldMob{
+height:56px !important;
+}
+
+#openAnAccountMob{
+text-align: center;
+height: 80px;
+}
+#openAccLinkMob{
+font-family: Interstate-Regular !important;
+font-size: 16px;
+color: #056DAE;
+letter-spacing: 0;
+text-align: center;
+line-height: 24px;
+padding-top:30px !important;
+}
+.mobileL:hover,
+.sia-nav_submenu_credit_mobile{
+    background-color: #fff !important;
+}
+#mobileCreditDrop,
+#mobileBankDrop,
+#mobileLendDrop,
+#mobileInvestDrop{
+    padding-left: 0px !important;
+	padding-bottom:20px;
+	background-color: #fff !important;
+}
+#citiGold_Link{
+text-decoration : none !important;
+}
+
+#atmBranchMob,
+#localeMob{
+padding-left : 18px;
+}
+
+#mobileDrop li.mm_subnav{
+ height: 48px !important;
+    padding-left: 50px !important;
+    outline: none;
+}
+#mobileDrop li.mm_subnav a{
+   font-family: Interstate-Regular !important;
+    color: #002D72;
+	font-size:16px;
+	padding-top:10px;
+}
+
+.mobileIconPostLogin{
+display:none;
+}
+.mobilebackIconPostLogin{
+display:none;
+position: absolute;
+line-height: 56px;
+left: 20px;
+}
+
+.sia-nav_submenus .sia-nav_submenu_mobile span.glyphicon.glyphicon-plus.mobileIcon{
+position: relative;
+float: right;
+line-height: 50px;
+right:20px !important
+}
+.sia-nav_submenus .sia-nav_submenu_mobile span.glyphicon.glyphicon-plus.mobileLeftIcon{
+left:20px !important;
+display:none;
+position:absolute;
+top: 17px;
+  z-index:1;
+}	
+.sia-nav_submenus .sia-nav_submenu_mobile span.glyphicon.glyphicon-plus.mobileLeftIcon:before{
+content: url(/GFC/branding/img/redesigned/leftArrow.png) !important;
+}	
+ .sia-nav_submenus .sia-nav_submenu_mobile .glyphicon-plus:before{
+ content: url(/GFC/branding/img/redesigned/Chevron_Right.png) !important;
+ }
+ 
+ .subnav_inner-btn{
+ height:56px !important;
+ }
+ 
+ .atmlocaleMobText{
+ font-family: Interstate-Regular !important;
+ font-size: 16px !important;
+ color: #002D72;
+ }
+ 
+#mobileMenu{
+display:none;
+width: 58px !important;
+    height: 46px;
+	
+}
+#citi-topNav-container #signOnOffLi{display:none !important;}
+#citi-topNav-container #signOff{
+	display:inline-block !important;
+	margin-left:20px;
+	float:right;
+	margin-top: 12px;
+	font-size: 16px;
+	}
+.navbar-header{
+height:46px;
+float:left !important;
+}
+
+
+#mobileMenu{
+padding-top: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+#exploreProductsMobile{
+display:none;
+}
+#atmBranchMob{
+diplay:none;
+}
+@media (min-width: 1122px) and (max-width: 1229px) {
+	 #newSearchNav span{display:none;}
+	 #bs-example-navbar-collapse-1{width: 85% !important;}
+	 .container-fluid .rightLinks{width: 11.5% !important;}
+}
+@media screen and (min-width: 1121px){
+  .rightLinks li{	display:inline-block;}
+.container-fluid .rightLinks{width:22.5%;}
+  .container-fluid .divider{position:absolute;}
+#bs-example-navbar-collapse-1{width:75%;}
+  .branding14 #subnav_inner .divider, .brandingddl #subnav_inner .divider, #brandingrwd #subnav_inner .divider{
+  
+    //width:14px !important;
+   
+}
+.brandingnavv2{
+	width:97% !important;
+}
+.container-fluid #profileLinks #searchLi #newSearchNav
+{
+    padding: 0 16px;
+    padding-top: 11px !important;
+}
+#brandingrwd #subnav_inner {
+    z-index: 15;
+    height: 46px;
+    width: 75%;
+    position: absolute;
+    padding-left: 1.4%;
+   //    padding-right: 2.4%;
+}
+  #mobileDrop{
+		display:none !important;
+	}
+.profileMobile{
+		display:none !important;
+	}
+#atmBranchPostMob{
+ display:none;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .pntTitle {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    line-height: 18px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default.gold .navbar-nav>.open>a, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default.gold .navbar-nav>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default.gold .navbar-nav>.open>a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default.gold li#openAnAccount a#citiGold_Link:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default.gold li#searchLi a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default.gold li#signOff a:hover
+ {
+    background-color: #163C6A !important;
+   color: #fff !important;
+   border-bottom:0px !important;
+    height:46px !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:hover, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #056DAE !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+    	.responsiveBrn #subnav_inner #primary_nav #main-nav {
+    display: block !important;
+}
+}
+ 
+	
+@media screen and (max-width: 1120px){
+  
+  #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.dropdown-toggle:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.dropdown-toggle:focus{
+	color:#333 !important;}
+  #bs-example-navbar-collapse-1{ margin-top:45px;}
+.container-fluid.paddLeft .navbar-header{
+	display:block !important;
+}
+ #subnav_inner{
+padding-left:0 !important;
+}
+.cbolui-ddl .subnav_inner-btn{
+ padding:0 !important; 
+}
+ .subnav_inner-btn {
+  //line-height:0px !important; 
+ }
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu{
+box-shadow: none !important;
+}
+	#citiBrandingSection .pull-right{
+	display:none;
+}
+
+ul.mobileUL,
+ ul#mobileDrop{
+    padding-left: 0px !important;
+}
+#mobileDrop li{
+margin-bottom:0 !important;
+}
+.collase {
+display:none;
+background: #FFFFFF !important;
+z-index: 1000;
+position: relative;
+}
+.pull-right #atmbrnch, .pull-right #atmbrnchdesk,
+#profileLinks{
+display:none;
+}
+.cbolui-ddl-topNav .navbar-header,
+.cbolui-ddl-topNav .navbar-nav>li{
+float:none; !important;
+}
+.cbolui-ddl-topNav .navbar-nav .open .dropdown-menu .dropdown-header, .cbolui-ddl-topNav .navbar-nav .open .dropdown-menu>li>a {
+    padding: 0;
+}
+/**.seperator{
+height: 0 !important;
+border-top: 1px solid #F4F4F4 !important;
+margin: 0 16px !important;
+}**/
+#profileLinks{
+//display:none;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .profileIconMobile{
+    top: 14px !important;
+    position: absolute;
+    left: 0px;
+}
+#openAnAccount a{
+font-size: 16px!important;
+    font-family: Interstate-Regular !important;
+    color: #056DAE !important;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-top: 30px !important;
+	 padding-left: 135px;
+}
+.rightLinks li{
+float:left
+}
+.mobileIconPostLogin{
+display:block;
+line-height: 30px;
+float:right;
+position: relative;
+}
+a.subMenuLink {
+font-family: Interstate-Regular !important;
+font-size: 16px !important;
+color: #002D72 !important;
+letter-spacing: 0;
+line-height: 20px;
+}
+.dropdown-menu li{
+padding:12px 0px 12px 50px !important;
+display:block;
+}
+#exploreProductsMobile{
+display:block;
+}
+#exploreProducts{
+display:none !important;
+}
+#atmBranchMob{
+diplay:block;
+}
+a.dropdown-toggle{
+width:100% !important;
+ border-bottom: 1px solid #F4F4F4 !important;
+margin: 0 !important;
+}
+#openAnAccount,
+#openAnAccount:hover,
+#openAnAccount:focus{
+background-color: #fff !important;
+}
+#openAnAccount a{
+font-family: Interstate-Regular !important;
+font-size: 16px;
+color: #056DAE !important;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a{
+color: #333 !important;
+background: none !important;
+}
+
+.mobileIconPostLogin:before{
+ content: url(/GFC/branding/img/redesigned/Chevron_Right.png) !important;
+ }
+ .mobilebackIconPostLogin:before{
+ content: url(/GFC/branding/img/redesigned/leftArrow.png) !important;
+ }
+
+
+.paddLeft{
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+
+
+
+
+
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.dropdown-toggle{
+font-family: Interstate-Regular !important;
+font-size: 16px;
+color: #333 !important;
+padding:12px 18px 10px 50px !important;
+line-height:1.5;
+}
+.responsiveBrn #subnav_inner #primary_nav #main-nav {
+    display: none !important;
+}
+.responsiveBrn .sia-nav_submenus {
+    top: 46px !important;
+}
+.responsiveBrn #subnav_inner nav ul{
+display:block !important;
+}
+#subnav_inner{
+    padding-right:0;
+}
+a.signOnBtn {
+    font-size: 16px!important;
+	font-family: Interstate-Regular !important;
+}
+
+.subnav_inner-btn:hover{
+ border-bottom: none !important;
+}
+
+#searchLi {
+    height: 36px;
+}
+
+#subnav_inner{
+    padding-right:0;
+width:90% !important
+}
+a.signOnBtn {
+    font-size: 16px!important;
+	font-family: Interstate-Regular !important;
+  color:#fff;
+}
+.pull-right #profileSettings li a.subMenuLink{
+font-family: Interstate-Light,sans-serif;
+    font-size: 16px !important;
+    color: #333333 !important;
+    letter-spacing: 0;
+    line-height: 22px;
+   // margin-bottom: 5%;
+    
+}
+.pull-right #profileSettingsMB li a.subMenuLink{
+font-family: Interstate-Light,sans-serif;
+    font-size: 16px !important;
+    color: #333333 !important;
+    letter-spacing: 0;
+    line-height: 22px;
+   // margin-bottom: 5%;
+    
+}
+
+.pull-right #profileSettings h4{
+font-family: Interstate-Regular !important;
+    font-size: 12px !important;
+    color: #666666 !important;
+    letter-spacing: 0;
+    line-height: 20px !important;
+       // text-transform: capitalize !important;
+   // margin:10px 25px;
+}
+.pull-right #profileSettingsMB h4{
+font-family: Interstate-Regular !important;
+    font-size: 12px !important;
+    color: #666666 !important;
+    letter-spacing: 0;
+    line-height: 20px !important;
+       // text-transform: capitalize !important;
+   // margin:10px 25px;
+}
+.pull-right #profileSettings ul{
+    background: #FFFFFF;
+    box-shadow: 0 2px 7px 2px rgba(0,0,0,0.20);
+    border-radius: 0px !important;
+    left: -40px;
+	top: 86px;
+}
+.pull-right #profileSettingsMB ul{
+    background: #FFFFFF;
+    box-shadow: 0 2px 7px 2px rgba(0,0,0,0.20);
+    border-radius: 0px !important;
+    left: -40px;
+	top: 86px;
+}
+.pull-right #profileSettings li{
+
+    //margin:0px 25px;
+}
+.pull-right #profileSettings .titleSeperatorDesktop{
+border-bottom: 0px !important;
+}
+.pull-right #profileSettingsMB .titleSeperatorDesktop{
+border-bottom: 0px !important;
+}
+.pull-right #profileSettings .settingsIcon{
+background-image:none !important;
+width:0px !important;
+height:0px !important;
+margin-right:0px !important;
+}
+.pull-right #profileSettingsMB .settingsIcon{
+background-image:none !important;
+width:0px !important;
+height:0px !important;
+margin-right:0px !important;
+}
+#mobileMenu{
+display:block;
+}
+  #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .glyphicon {
+		display: none !important;
+	}
+  #citi-topNav-container #signOff a{
+   color: white !important; 
+  }
+//#citi-topNav-container #signOnOffLi{display:inline-block !important;}
+//#citi-topNav-container #signOff{display:none !important;}
+
+}
+
+@media (min-width: 992px){
+.mobile{
+position: relative !important; 
+ left: 0 !important;
+ top: 0 !important;
+}
+.responsiveBrn div.sia-nav_submenus li:hover{
+    //height: 56px !important;
+}
+  
+}
+
+@media (max-width: 1120px){
+#mobileNav {
+    top: 46px !important;
+}
+.responsiveBrn.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+.responsiveBrn.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+#citiBrandingSection{
+background-color:#ffffff;
+}
+.mobileBreakpointTopNav{
+		height:auto !important;
+		padding-top: 0px !important;
+	}
+	#profileSettings a{
+	    top: 11px !important;
+}
+#profileSettingsMB a{
+	    top: 11px !important;
+}
+.iconLableProfile{
+margin-bottom: -23px !important;
+    margin-left: 0px !important;
+
+}
+.pull-right ul li:first-child{
+	    //padding-right: 28px !important;
+}
+#profileSettings .dropdown-menu{
+position:absolute !important;
+min-height: 60px !important;
+    //box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15) !important;
+}
+#profileSettingsMB .dropdown-menu{
+position:absolute !important;
+min-height: 60px !important;
+    //box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15) !important;
+}
+.profileSubtitle{
+ display:block !important;
+}
+	#profileSettings.dropdown {
+    //font-size: 7.5pt;
+    width: 80px !important;
+}
+#profileSettingsMB.dropdown {
+    //font-size: 7.5pt;
+    width: 80px !important;
+}
+.dropdown-toggle img{
+		margin-left: 27px !important;
+    bottom: -12px;
+	}
+	.iconLableProfile{
+
+		top:46px;
+	}
+	#profileSettings a{
+		left:0px !important;
+	}
+	#profileSettingsMB a{
+		left:0px !important;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .iconLableProfile {
+    left: 45px !important;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .iconLableProfile {
+    left: 45px !important;
+}
+.pull-right{
+		//margin-right:0px !important;
+	}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .pntTitle {
+    padding: 12px 0px 12px 50px;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    line-height: 18px;
+	font-family: Interstate-Regular;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .pntTitle {
+    padding: 12px 0px 12px 50px;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    line-height: 18px;
+	font-family: Interstate-Regular;
+}
+#profileSettings .dropdown-menu {
+    position: absolute !important;
+    min-height: 60px !important;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15) !important; */
+margin-top:10px;
+}
+
+#profileSettings ul li:last-child a {
+    margin-left: 0px !important;
+    margin-top: 0px;
+    margin-bottom: 10px;
+     border-top: 0px !important; 
+}
+#profileSettingsMB .dropdown-menu {
+    position: absolute !important;
+    min-height: 60px !important;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15) !important; */
+margin-top:10px;
+}
+
+#profileSettingsMB ul li:last-child a {
+    margin-left: 0px !important;
+    margin-top: 0px;
+    margin-bottom: 10px;
+     border-top: 0px !important; 
+}
+/*#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a {
+    white-space: pre-wrap;
+    padding: 10px 20px;
+}*/
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+    min-width: 250px;
+    min-height: 60px;
+	width:100%;
+    border-radius: 0;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+    min-width: 250px;
+    min-height: 60px;
+	width:100%;
+    border-radius: 0;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a .iconLableProfile, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus .iconLableProfile, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover .iconLableProfile {
+    left: 46px !important;
+}
+
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a .iconLableProfile, #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus .iconLableProfile, #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover .iconLableProfile {
+    left: 46px !important;
+}
+.dropdown-menu{
+
+		margin-top:10px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 334px){
+.rightLinks{
+padding-right: 0px;
+}
+}
+.responsiveBrn #subnav_inner #primary_nav li.mm_subnav{
+line-height:40px !important
+}
+#primary_navigationBar .sub_menu_dropdown li.mm_subnav{
+line-height:40px !important
+}
+#creditCardsLi ul.sia-nav_submenu{
+width:auto;
+	//width: 603px;
+    height: 334px;
+}
+
+#bankingLi ul.sia-nav_submenu{
+width:auto;
+	//width: 603px;
+    height: 334px;
+}
+#lendingLi ul.sia-nav_submenu{
+width:auto;
+	//width: 632px;
+   // height: 250px;
+  height: auto;
+}
+
+#investingLi ul.sia-nav_submenu{
+width:auto;
+	//width: 621px;
+    height: 212px;
+}
+
+#citiGoldLi ul.sia-nav_submenu{
+width:auto;
+	//width: 567px;
+    height: 160px;
+}
+#citiBrandingSection .maxWidthInner{
+max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    height: 88px;
+background-color:#ffffff;
+
+}
+
+.maxWidthInner #headerLoka{
+    height: 88px;
+}
+
+#citiBrandingSection .brandingLogo{
+height: 88px !important;
+    width: 80px !important;
+}
+#citiBrandingSection .pull-right{
+margin-top: 3px !important;
+  margin-right: 24px;
+}
+#postlogin{
+margin-top:0px !important;
+}
+#profileSettings a:hover{
+border-bottom:none !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover{
+	background:none !important;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover{
+	background:none !important;
+}
+.iconLableProfile:hover{
+bottom:5px !important;
+}
+#profileSettings .dropdown-menu{
+	min-width:226px !important;
+	padding-left:20px !important;
+	pading-top:10px !important;
+top:72px !important;
+}
+#profileSettings .dropdown-toggle{
+	display:block !important;
+	border-bottom:0px !important
+}
+#profileSettings .dropdown-toggle:hover{
+	border-bottom  :0px !important;
+}
+#profileSettings .dropdown-menu li a:hover{
+color: #056DAE !important;
+}
+#profileSettingsMB .dropdown-menu{
+	min-width:226px !important;
+	padding-left:20px !important;
+	pading-top:10px !important;
+top:72px !important;
+}
+#profileSettingsMB .dropdown-toggle{
+	display:block !important;
+	border-bottom:0px !important
+}
+#profileSettingsMB .dropdown-toggle:hover{
+	border-bottom  :0px !important;
+}
+#profileSettingsMB .dropdown-menu li a:hover{
+color: #056DAE !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.mobileBreakpointTopNav .navbar-nav .open{
+	background:none !important;
+	/* margin-top: -7px; */
+}
+.pull-right #profileSettings li a.subMenuLink{
+font-family: Interstate-Light,sans-serif;
+    font-size: 16px !important;
+    color: #333333 !important;
+    letter-spacing: 0;
+    line-height: 22px;
+   // margin-bottom: 5%;
+    
+}
+
+.pull-right #profileSettingsMB li a.subMenuLink{
+font-family: Interstate-Light,sans-serif;
+    font-size: 16px !important;
+    color: #333333 !important;
+    letter-spacing: 0;
+    line-height: 22px;
+   // margin-bottom: 5%;
+    
+}
+.pull-right #profileSettings h4{
+font-family: Interstate-Regular !important;
+    font-size: 12px !important;
+    color: #666666 !important;
+    letter-spacing: 0;
+    line-height: 20px !important;
+       // text-transform: capitalize !important;
+   // margin:10px 25px;
+}
+.pull-right #profileSettingsMB h4{
+font-family: Interstate-Regular !important;
+    font-size: 12px !important;
+    color: #666666 !important;
+    letter-spacing: 0;
+    line-height: 20px !important;
+       // text-transform: capitalize !important;
+   // margin:10px 25px;
+}
+.pull-right #profileSettings ul{
+    background: #FFFFFF;
+    box-shadow: 0 2px 7px 2px rgba(0,0,0,0.20);
+    border-radius: 0px !important;
+    left: -40px;
+	top: 86px;
+}
+.pull-right #profileSettingsMB ul{
+    background: #FFFFFF;
+    box-shadow: 0 2px 7px 2px rgba(0,0,0,0.20);
+    border-radius: 0px !important;
+    left: -40px;
+	top: 86px;
+}
+.pull-right #profileSettings li{
+
+    //margin:0px 25px;
+}
+.pull-right #profileSettings .titleSeperatorDesktop{
+border-bottom: 0px !important;
+}
+
+.pull-right #profileSettings .settingsIcon{
+background-image:none !important;
+width:0px !important;
+height:0px !important;
+margin-right:0px !important;
+}
+.pull-right #profileSettingsMB li{
+
+    //margin:0px 25px;
+}
+.pull-right #profileSettingsMB .titleSeperatorDesktop{
+border-bottom: 0px !important;
+}
+
+.pull-right #profileSettingsMB .settingsIcon{
+background-image:none !important;
+width:0px !important;
+height:0px !important;
+margin-right:0px !important;
+}
+.subnav_inner-btn {
+    /* height: 50px; */
+    cursor: pointer;
+    color: #333;
+    border-radius: 0;
+    outline: 0;
+    box-shadow: none;
+    line-height: 50px;
+    list-style: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.site-header a {
+    display: inline-block;
+    font-size: inherit;
+    color: #333;
+    line-height: 1.5;
+}
+*, .form-group, :after, :before, input[type=search], select.form-control {
+   // box-sizing: border-box;
+}
+.responsiveBrn .sia-nav_submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sia-nav_submenu li a {
+    white-space: nowrap;
+}
+.site-header a {
+    display: inline-block;
+    font-size: inherit;
+    color: #333;
+    line-height: 1.5;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a .iconLableProfile, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus .iconLableProfile, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover .iconLableProfile{
+	bottom:5px !important;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a .iconLableProfile, #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus .iconLableProfile, #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover .iconLableProfile{
+	bottom:5px !important;
+}
+.mm_subnav a{
+	font-family: Interstate_Light,sans-serif,Arial,sans-serif !important;font-size: 16px;color: #333;border-bottom: 0px !important;
+}
+@media screen and (min-width: 1121px) {
+  .responsiveBrn #subnav{position:absolute;}
+   ul li {
+	padding-bottom:0px !important;
+}
+   .cR-citiWrapper #subnav_inner {
+    width:71%;
+    float: left;
+  position:relative;
+}
+		 .rightLinks{
+		//left:13px !important;
+	}
+  .citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a,
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:focus, 
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:hover, 
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:focus,
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:hover,
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:focus,
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:hover,
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:focus,
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #163C6A !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+	
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #163C6A !important;
+}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a:focus,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a:hover ,
+    #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu #openAnAccount a:focus,
+    #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu #openAnAccount a:hover,
+    #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu #searchLi a:focus,
+    #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu #searchLi a:hover,
+    #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu #signOff a:focus,
+    #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu #signOff a:hover
+    {
+		
+	background-color: #056DAE !important;
+    color: #fff !important;
+   border-bottom:0px !important;
+    height:49px !important;
+	}
+	}
+
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.dropdown-toggle{
+    
+    color: #fff;
+      padding: 13px 16px 9px 16px;
+//background-color: rgb(0, 45, 114);
+    height: 46px;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.dropdown-toggle{
+    
+    color: #fff;
+      padding: 13px 16px 9px 16px;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.dropdown-toggle:hover{
+	//background-color: #056DAE !important;
+   // color: #fff !important;
+  // border-bottom:0px !important;
+   // height:49px !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu li a.subMenuLink:hover {
+    text-decoration: underline !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu a.selectedMenu {
+    border-bottom: 0px;
+//box-shadow: 0 2px 7px 2px rgba(0,0,0,0.20);
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+padding:0px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+padding:0px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #profileLinks li a.subMenuLink:hover {
+    text-decoration: underline !important;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default #profileLinks li a.subMenuLink:hover {
+    text-decoration: underline !important;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #056DAE !important;
+    background-color:#fff;
+}
+    #topNavAccounts .dropdown-menu{
+
+		width: 628px;
+	}
+    #paymentsandTransfers .rightSection{
+ margin-right:35px;   
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .exploreProducts .dropdown-menu {
+   min-width: 1139px !important;
+    left: -248px !important;
+}
+.middleSection1,.middleSection2{
+    float: left;
+    width: 230px;
+}
+#citilmHeader.reskinHeader.citiGoldAccount #headerLogoLink>img {
+     height: auto; 
+    width: auto; 
+}
+#citiBrandingSection #browserLogo{
+	width: auto !important;
+    height: 88px !important;
+    top: 0px;
+}
+.pull-right.gold #atmbrnch:hover, .CPC #atmbrnch:hover,
+.pull-right.gold #atmbrnchdesk:hover, .CPC #atmbrnchdesk:hover{
+	filter: invert(33%) sepia(16%) saturate(7210%) hue-rotate(32deg) brightness(99%) contrast(61%);
+}
+.pull-right.gold #spanishDisclaimerLink:hover, .CPC #spanishDisclaimerLink:hover, .gold .englishlang:hover, .CPC .englishlang:hover,
+.pull-right.gold #spanishDisclaimerLinkdesk:hover, .CPC #spanishDisclaimerLinkdesk:hover,{
+	filter: invert(33%) sepia(16%) saturate(7210%) hue-rotate(32deg) brightness(99%) contrast(61%);
+}
+#navigationBar.gold{
+	background: #8E6F32 !important;
+}
+#navigationBar.gold li#creditCardsLi a.dropbtn:hover,
+#navigationBar.gold li#bankingLi a.dropbtn:hover,
+#navigationBar.gold li#investingLi a.dropbtn:hover,
+#navigationBar.gold li#lendingLi a.dropbtn:hover,
+#navigationBar.gold li#citiGoldLi a.dropbtn:hover,
+#navigationBar.gold li#openAnAccount a#citiGold_Link:hover,
+#navigationBar.gold li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:hover,
+#navigationBar.gold li#creditCardsLi a.dropbtn:focus,
+#navigationBar.gold li#bankingLi a.dropbtn:focus,
+#navigationBar.gold li#investingLi a.dropbtn:focus,
+#navigationBar.gold li#lendingLi a.dropbtn:focus,
+#navigationBar.gold li#citiGoldLi a.dropbtn:focus,
+#navigationBar.gold li#openAnAccount a#citiGold_Link:focus,
+#navigationBar.gold li#signOnOffLi a:hover,
+#navigationBar.gold li#signOnOffLi a:focus,
+#navigationBar.gold li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:focus{
+	background-color: #163C6A;
+	color:#fff !important;
+}
+
+#subnav.Gold li#creditCardsLi a.dropbtn:hover, 
+#subnav.Gold li#bankingLi a.dropbtn:hover,
+#subnav.Gold li#investingLi a.dropbtn:hover, 
+#subnav.Gold li#lendingLi a.dropbtn:hover, 
+#subnav.Gold li#citiGoldLi a.dropbtn:hover,
+#subnav.Gold li#creditCardsLi a.dropbtn:focus, 
+#subnav.Gold li#bankingLi a.dropbtn:focus,
+#subnav.Gold li#investingLi a.dropbtn:focus, 
+#subnav.Gold li#lendingLi a.dropbtn:focus, 
+#subnav.Gold li#citiGoldLi a.dropbtn:focus{
+    background-color: #163C6A;
+    color: #fff !important;
+}
+
+#subnav.Gold{
+	background: #8E6F32 !important;
+}
+#citiBrandingSection .gold #browserLogo{
+	width: 140px !important;
+    height: 40px !important;
+    top: 0px;
+	    margin-top: 30px !important;
+    margin-left: 31px !important;
+}
+
+
+
+	.middleSection1{
+    float: left;
+    width: 215px;
+}
+.middleSection2{
+    float: 240px;
+     float: left;
+}
+.dropdown-menu .rightSection{
+	width:230px !important;
+  float:left;
+}
+.responsiveBrn #citiBrandingSection .brandingLogo.Priority {
+    top: 5px;
+    width: 198px !important;
+    background: url(/GFC/branding/img/redesigned/priorityD.svg) no-repeat !important;
+	margin: 24px 0px 0px 34px !important;
+}
+.logo_priority #browserLogo{
+width: 198px !important;
+    height: 40px !important;
+    margin: 24px 0px 0px 0px !important;
+}
+#citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar{
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+   background: #002D72 !important;
+}
+#citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar.gold{
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+   background: #8E6F32 !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .paymentsandTransfers .leftSection, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .accountsSection .leftSection, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .exploreProducts .leftSection, #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .exploreProducts .middleSection{
+    float: left;
+    width: 230px;
+}
+.pull-right.gold #profileSettings .dropdown-toggle:hover{
+	filter: invert(33%) sepia(16%) saturate(7210%) hue-rotate(32deg) brightness(99%) contrast(61%);
+
+}
+.pull-right.gold #profileSettingsMB .dropdown-toggle:hover{
+	filter: invert(33%) sepia(16%) saturate(7210%) hue-rotate(32deg) brightness(99%) contrast(61%);
+
+}
+@media screen and (min-width: 1121px){
+
+#signOff a, #openAnAccount a , #searchLi a, #signOnOffLi a{
+color: #fff !important;
+//padding-top: 15px !important;
+padding-bottom: 9px;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #navigationMenu>.open>a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #navigationMenu>.open>a:hover, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #navigationMenu #openAnAccount a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #navigationMenu #openAnAccount a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #profileLinks #searchLi a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #profileLinks #searchLi a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #profileLinks #signOff a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateBank .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #666666 !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+	.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a,
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:focus, 
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:hover, 
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:focus,
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:hover,
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:focus,
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:hover,
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:focus,
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #0E2A48 !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+.citiPriorityAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #0E2A48 !important;
+}
+	
+	.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a,
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:focus, 
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:hover, 
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:focus,
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:hover,
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:focus,
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:hover,
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:focus,
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #666666 !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #navigationMenu>.open>a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #navigationMenu>.open>a:hover, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #navigationMenu #openAnAccount a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #navigationMenu #openAnAccount a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #profileLinks #searchLi a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #profileLinks #searchLi a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #profileLinks #signOff a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.gold .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #163C6A !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:hover, 
+#openAnAccount a:focus, #openAnAccount a:hover, #searchLi a:focus, #searchLi a:hover, #signOff a:focus, #signOff a:hover {
+		
+	background-color: #056DAE;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:hover, 
+#subnav.Priority #openAnAccount a:focus,#subnav.Priority #openAnAccount a:hover,#subnav.Priority #searchLi a:focus,#subnav.Priority #searchLi a:hover, 
+#subnav.Priority #signOff a:focus,#subnav.Priority #signOff a:hover,#subnav.Priority #signOnOffLi a:hover,#subnav.Priority #signOnOffLi a:focus {
+    background-color: #0E2A48;
+    color: #fff;
+    border-bottom: 0px !important;
+    height: 46px !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a:focus,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a:hover ,#subnav.Gold #openAnAccount a:focus,#subnav.Gold #openAnAccount a:hover,
+    #subnav.Gold #searchLi a:focus,#subnav.Gold #searchLi a:hover,#subnav.Gold #signOff a:focus,#subnav.Gold #signOff a:hover,
+	#subnav.Gold #signOnOffLi a:focus,#subnav.Gold #signOnOffLi a:hover
+    {
+		
+	background-color: #163C6A;
+    color: #fff !important;
+   border-bottom:0px !important;
+   // height:49px !important;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a:hover, 
+#openAnAccount a:focus, #openAnAccount a:hover, #searchLi a:focus, #searchLi a:hover, #signOff a:focus, #signOff a:hover{
+background-color: #056DAE;
+    color: #fff !important;
+    border-bottom: 0px !important;
+    height: 46px !important;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #navigationMenu>.open>a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #navigationMenu>.open>a:hover, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #navigationMenu #openAnAccount a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #navigationMenu #openAnAccount a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #profileLinks #searchLi a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #profileLinks #searchLi a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #profileLinks #signOff a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #0E2A48 !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+	#citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA.logo_priority {
+    height: 46px !important;
+    top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    
+	background: #0E2A48 !important;
+}
+#citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.logo_priority .navbar{
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    background: #0E2A48 !important;
+}
+	}
+    #citiBrandingSection .gold #browserLogo {
+    width: 140px !important;
+    height: 40px !important;
+    top: 0px;
+    margin-top: 30px !important;
+    margin-left: 10px !important;
+}
+#subnav.Gold #bankingLi .mm_subnav a:hover, 
+	#subnav.Gold #creditCardsLi .mm_subnav a:hover,
+	#subnav.Gold #lendingLi .mm_subnav a:hover, 
+	#subnav.Gold #investingLi .mm_subnav a:hover, 
+	#subnav.Gold #citiGoldLi .mm_subnav a:hover {
+    color: #8E6F32 !important;
+    text-decoration: underline !important;
+}
+#subnav.Priority #bankingLi .mm_subnav a:hover, 
+	#subnav.Priority #creditCardsLi .mm_subnav a:hover,
+	#subnav.Priority #lendingLi .mm_subnav a:hover, 
+	#subnav.Priority #investingLi .mm_subnav a:hover, 
+	#subnav.Priority #citiGoldLi .mm_subnav a:hover {
+    color: #0E2A48 !important;
+    text-decoration: underline !important;
+}
+.responsiveBrn #subnav.Priority {
+    height: 46px !important;
+    top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #091022;
+}
+#subnav.Priority #bankingLi .mm_subnav a:hover, 
+	#subnav.Priority #creditCardsLi .mm_subnav a:hover,
+	#subnav.Priority #lendingLi .mm_subnav a:hover, 
+	#subnav.Priority #investingLi .mm_subnav a:hover, 
+	#subnav.Priority #citiGoldLi .mm_subnav a:hover {
+    color: #0E2A48;
+    text-decoration: underline !important;
+}
+#subnav.Priority li#creditCardsLi a.dropbtn:hover, 
+#subnav.Priority li#bankingLi a.dropbtn:hover, 
+#subnav.Priority li#investingLi a.dropbtn:hover, 
+#subnav.Priority li#lendingLi a.dropbtn:hover, 
+#subnav.Priority li#citiGoldLi a.dropbtn:hover, 
+#subnav.Priority li#openAnAccount a#citiGold_Link:hover, 
+#subnav.Priority li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:hover,
+#subnav.Priority li#creditCardsLi a.dropbtn:focus, 
+#subnav.Priority li#bankingLi a.dropbtn:focus, 
+#subnav.Priority li#investingLi a.dropbtn:focus, 
+#subnav.Priority li#lendingLi a.dropbtn:focus, 
+#subnav.Priority li#citiGoldLi a.dropbtn:focus, 
+#subnav.Priority li#openAnAccount a#citiGold_Link:focus, 
+#subnav.Priority li#signOnOffLi a:hover,
+#subnav.Priority li#signOnOffLi a:focus,
+#subnav.Priority li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:focus{
+    background-color: #0E2A48;
+    color: #fff !important;
+}
+
+
+#citiBrandingSection .logo_priority #browserLogo{
+width: 154px !important;
+    height: 40px !important;
+	margin: 24px 0px 0px 14px !important;
+}
+#navigationBar
+{
+height: 46px !important;
+	top: 0px !important;
+	border-bottom: none !important;
+	    z-index: 50;
+		width: 100%;
+		  background: #002D72;
+}
+#navigationBar.logo_priority{
+height: 46px !important;
+	top: 0px !important;
+	border-bottom: none !important;
+	    z-index: 50;
+		width: 100%;
+		  background: #091022;
+}
+#navigationBar.logo_priority #openAnAccount a:focus,#navigationBar.logo_priority #openAnAccount a:hover, 
+#navigationBar.logo_priority #searchLi a:focus,#navigationBar.logo_priority #searchLi a:hover, 
+#navigationBar.logo_priority #signOff a:focus,#navigationBar.logo_priority #signOff a:hover ,
+#navigationBar.logo_priority #signOnOffLi a:focus,#navigationBar.logo_priority #signOnOffLi a:hover{
+    background-color: #0E2A48;
+    color: #fff !important;
+    border-bottom: 0px !important;
+    height: 46px !important;
+}
+#navigationBar.logo_priority #bankingLi .mm_subnav a:hover, 
+#navigationBar.logo_priority #creditCardsLi .mm_subnav a:hover, 
+#navigationBar.logo_priority #lendingLi .mm_subnav a:hover, 
+#navigationBar.logo_priority #investingLi .mm_subnav a:hover, 
+#navigationBar.logo_priority #citiGoldLi .mm_subnav a:hover {
+    color: #0E2A48;
+    text-decoration: underline !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar.navbar-default.gold  .navbar-nav>.open>a:hover, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar.navbar-default.gold  .dropdown-menu li>a:hover {
+    color: #163C6A;
+	}
+.responsiveBrn #subnav.Gold  #subnav_inner #primary_nav .hcolor:hover,
+.responsiveBrn #subnav.Gold  #subnav_inner #primary_nav .hcolor:active,
+.responsiveBrn #subnav.Gold  #subnav_inner #primary_nav .hcolor:focus,
+.responsiveBrn #subnav.Gold  #subnav_inner #primary_nav .hcolor:focus-within
+{
+	  
+  background-color: #163C6A;
+}
+.responsiveBrn #subnav  #subnav_inner #primary_nav .hcolor:hover,
+.responsiveBrn #subnav  #subnav_inner #primary_nav .hcolor:active,
+.responsiveBrn #subnav  #subnav_inner #primary_nav .hcolor:focus,
+.responsiveBrn #subnav  #subnav_inner #primary_nav .hcolor:focus-within
+{
+	  
+  background-color: #056DAE;
+}
+.responsiveBrn #navigationBar.gold #navigationBar_inner #primary_navigationBar .hcolor:hover, 
+.responsiveBrn #navigationBar.gold #navigationBar_inner #primary_navigationBar .hcolor:active,
+.responsiveBrn #navigationBar.gold #navigationBar_inner #primary_navigationBar .hcolor:focus,
+.responsiveBrn #navigationBar.gold #navigationBar_inner #primary_navigationBar .hcolor:focus-within{
+
+	   background-color: #163C6A;
+          color:#fff !important;  
+}
+.responsiveBrn #navigationBar #navigationBar_inner #primary_navigationBar .hcolor:hover, 
+.responsiveBrn #navigationBar #navigationBar_inner #primary_navigationBar .hcolor:active,
+.responsiveBrn #navigationBar #navigationBar_inner #primary_navigationBar .hcolor:focus,
+.responsiveBrn #navigationBar #navigationBar_inner #primary_navigationBar .hcolor:focus-within{
+
+	   background-color: #056DAE;
+          color:#fff !important;  
+}
+#navigationBar.gold #bankingLi .mm_subnav a:hover,
+#navigationBar.gold #creditCardsLi .mm_subnav a:hover,
+#navigationBar.gold #lendingLi .mm_subnav a:hover,
+#navigationBar.gold #investingLi .mm_subnav a:hover,
+#navigationBar.gold #citiGoldLi .mm_subnav a:hover{
+color:#8E6F32 !important;
+text-decoration: underline !important;
+}
+.responsiveBrn #subnav.Priority #subnav_inner #primary_nav .hcolor:hover,
+.responsiveBrn #subnav.Priority #subnav_inner #primary_nav .hcolor:active,
+.responsiveBrn #subnav.Priority #subnav_inner #primary_nav .hcolor:focus,
+.responsiveBrn #subnav.Priority #subnav_inner #primary_nav .hcolor:focus-within
+{
+	  
+  background-color: #0E2A48;
+}
+.responsiveBrn #subnav #subnav_inner #primary_nav .hcolor:hover,
+.responsiveBrn #subnav #subnav_inner #primary_nav .hcolor:active,
+.responsiveBrn #subnav #subnav_inner #primary_nav .hcolor:focus,
+.responsiveBrn #subnav #subnav_inner #primary_nav .hcolor:focus-within
+{
+	  
+  background-color: #056DAE;
+}
+
+
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default.gold .navbar-nav>.open>a.subMenuLink:hover, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default.gold .dropdown-menu li>a:hover {
+    color:#8E6F32 !important;
+text-decoration: underline !important;
+}
+
+	#citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA{
+
+height: 46px !important;
+    //top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #002D72 !important;
+}
+#citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA.default{
+
+height: 46px !important;
+   // top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #002D72 !important;
+}
+	#citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA.gold{
+
+height: 46px !important;
+    //top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #8E6F32 !important;
+}
+.navbar.navbar-default{
+max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.container-fluid.paddLeft .navbar-header{
+	display:none;
+}
+@media screen and (max-width: 1120px){
+#citiBrandingSection .redeisgnMBH .pull-right {
+    display: none;
+}
+a#lending_chkloanapp,a#lending_homeequcalc{
+    display: flex;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a{
+padding:0 !important;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a{
+padding:0 !important;
+}
+#navigationMenu li{
+width:100%;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .paymentsandTransfers .dropdown-menu{
+min-width:none;
+}
+.cbolui-ddl-topNav .dropdown-menu{
+margin:0 !important;
+}
+
+ul.rightSection.pntSecondUL {
+    float: left !important;
+}
+.rightLinks{
+float:right !important;
+height: 46px;
+padding-right: 16px;
+}
+.navbar-header .rightLinks #searchLi{
+padding: 0px 15px 0px 0px !important;
+}
+.navbar-header .rightLinks #signOnOffLi{
+padding: 0px 0px 0px 10px;
+}
+.navbar-header .rightLinks #signOnOffLi a{
+font-size: 16px;
+font-family: Interstate-Regular !important;
+color:#fff;
+}
+
+ul.leftSection.pntfirstUL{
+padding-bottom:22px !important;
+width:100% !important;
+}
+.dropdown-menu {
+    background: #fff !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .open .profileIconMobile{
+background-image:none !important;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .open .profileIconMobile{
+background-image:none !important;
+}
+#atmBranchPostMob a{
+padding:12px 0 10px 0px;
+border-bottom: 1px solid #F4F4F4 !important;
+margin: 0 16px !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .pntTitle {
+    padding: 22px 0px 6px 50px;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    line-height: 18px;
+	font-family: Interstate-Regular;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .pntTitle {
+    padding: 22px 0px 6px 50px;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    line-height: 18px;
+	font-family: Interstate-Regular;
+}
+.rightLinks li{
+list-style:none
+}
+.cbolui-ddl-topNav .container-fluid>.navbar-header{
+margin-left:0 !important;
+}
+.cbolui-ddl-topNav .navbar-nav{
+margin:0 !important;
+width:100%
+}
+}
+@media screen and (max-width: 415px){
+#newSearchNav span{
+display:none;
+}
+}
+
+#navigationBar.gold li#creditCardsLi a.dropbtn:hover,
+#navigationBar.gold li#bankingLi a.dropbtn:hover,
+#navigationBar.gold li#investingLi a.dropbtn:hover,
+#navigationBar.gold li#lendingLi a.dropbtn:hover,
+#navigationBar.gold li#citiGoldLi a.dropbtn:hover,
+#navigationBar.gold li#openAnAccount a#citiGold_Link:hover,
+#navigationBar.gold li#searchLi a#newSearchNav:hover,
+#navigationBar.gold li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:hover,
+#navigationBar.gold li#creditCardsLi a.dropbtn:focus,
+#navigationBar.gold li#bankingLi a.dropbtn:focus,
+#navigationBar.gold li#investingLi a.dropbtn:focus,
+#navigationBar.gold li#lendingLi a.dropbtn:focus,
+#navigationBar.gold li#citiGoldLi a.dropbtn:focus,
+#navigationBar.gold li#openAnAccount a#citiGold_Link:focus,
+#navigationBar.gold li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:focus,
+#navigationBar.gold li#signOnOffLi a.signOffBtn:hover,
+#navigationBar.gold li#signOnOffLi a:hover,
+#navigationBar.gold li#signOnOffLi a:focus,
+#navigationBar.gold li#signOnOffLi a.signOffBtn:focus,
+#navigationBar.gold li#searchLi a#newSearchNav:focus{
+	background-color: #163C6A;
+	color:#fff !important;
+	height:48px;
+}
+#navigationBar.logo_priority li#creditCardsLi a.dropbtn:hover,
+#navigationBar.logo_priority li#bankingLi a.dropbtn:hover,
+#navigationBar.logo_priority li#investingLi a.dropbtn:hover,
+#navigationBar.logo_priority li#lendingLi a.dropbtn:hover,
+#navigationBar.logo_priority li#citiGoldLi a.dropbtn:hover,
+#navigationBar.logo_priority li#openAnAccount a#citiGold_Link:hover,
+#navigationBar.logo_priority li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:hover{
+	background-color: #0E2A48;
+	color:#fff !important;  
+}
+.responsiveBrn #navigationBar.logo_priority #navigationBar_inner #primary_navigationBar .hcolor:hover, 
+.responsiveBrn #navigationBar.logo_priority #navigationBar_inner #primary_navigationBar .hcolor:active,
+.responsiveBrn #navigationBar.logo_priority #navigationBar_inner #primary_navigationBar .hcolor:focus, 
+.responsiveBrn #navigationBar.logo_priority #navigationBar_inner #primary_navigationBar .hcolor:focus-within{
+
+	   background-color: #0E2A48;
+   }
+   
+   
+#navigationBar.logo_priority li#creditCardsLi .mm_subnav a:hover,
+#navigationBar.logo_priority li#bankingLi .mm_subnav a:hover,
+#navigationBar.logo_priority li#investingLi .mm_subnav a:hover,
+#navigationBar.logo_priority li#lendingLi .mm_subnav a:hover,
+#navigationBar.logo_priority li#citiGoldLi .mm_subnav a:hover{
+color: #0E2A48 !important;
+text-decoration: underline !important;
+}
+
+//1431
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #navigationMenu>.open>a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #navigationMenu>.open>a:hover, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #openAnAccount a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #openAnAccount a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #searchLi a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #searchLi a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #signOff a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.default .navbar-default.default #signOff a:hover {
+		
+	background-color: #056DAE !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+	.submenuRD{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	float: left;
+	margin-right: 30px !important;
+}
+.submenurightRD{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.responsiveBrn #subnav.CPC{
+ height: 46px !important;
+	top: 89px !important;
+	border-bottom: none !important;
+	    z-index: 50;
+		width: 100%;
+		  background: #281814;
+}
+.responsiveBrn #navigationBar.PrivateClient{
+ height: 46px !important;
+	top: 89px !important;
+	border-bottom: none !important;
+	    z-index: 50;
+		width: 100%;
+		  background: #281814;
+}
+#navigationBar.PrivateClient #bankingLi .mm_subnav a:hover,
+#navigationBar.PrivateClient #creditCardsLi .mm_subnav a:hover,
+#navigationBar.PrivateClient #lendingLi .mm_subnav a:hover,
+#navigationBar.PrivateClient #investingLi .mm_subnav a:hover,
+#navigationBar.PrivateClient #citiGoldLi .mm_subnav a:hover{
+color:#8E6F32 !important;
+text-decoration: underline !important;
+}
+#navigationBar.PrivateClient li#creditCardsLi a.dropbtn:hover,
+#navigationBar.PrivateClient li#bankingLi a.dropbtn:hover,
+#navigationBar.PrivateClient li#investingLi a.dropbtn:hover,
+#navigationBar.PrivateClient li#lendingLi a.dropbtn:hover,
+#navigationBar.PrivateClient li#citiGoldLi a.dropbtn:hover,
+#navigationBar.PrivateClient li#openAnAccount a#citiGold_Link:hover,
+#navigationBar.PrivateClient li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:hover,
+#navigationBar.PrivateClient li#creditCardsLi a.dropbtn:focus,
+#navigationBar.PrivateClient li#bankingLi a.dropbtn:focus,
+#navigationBar.PrivateClient li#investingLi a.dropbtn:focus,
+#navigationBar.PrivateClient li#lendingLi a.dropbtn:focus,
+#navigationBar.PrivateClient li#citiGoldLi a.dropbtn:focus,
+#navigationBar.PrivateClient li#openAnAccount a#citiGold_Link:focus,
+#navigationBar.PrivateClient li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:focus,
+#navigationBar.PrivateClient li#signOnOffLi a#signOffBtn:hover,
+#navigationBar.PrivateClient li#signOnOffLi a#signOffBtn:focus,
+#navigationBar.PrivateClient li#searchLi a#newSearchNav:hover,
+#navigationBar.PrivateClient li#signOnOffLi a:hover,
+#navigationBar.PrivateClient li#signOnOffLi a:focus,
+#navigationBar.PrivateClient li#searchLi a#newSearchNav:focus{
+	background-color: #8E6F32;
+	color:#fff !important;
+}
+.responsiveBrn #navigationBar.gold #navigationBar_inner #primary_navigationBar .hcolor:hover, 
+.responsiveBrn #navigationBar.gold #navigationBar_inner #primary_navigationBar .hcolor:active,
+.responsiveBrn #navigationBar.gold #navigationBar_inner #primary_navigationBar .hcolor:focus, 
+.responsiveBrn #navigationBar.gold #navigationBar_inner #primary_navigationBar .hcolor:focus-within{
+
+	   background-color: #8E6F32;
+          color:#fff !important;  
+}
+#subnav.CPC li#creditCardsLi a.dropbtn:hover, 
+#subnav.CPC li#bankingLi a.dropbtn:hover,
+#subnav.CPC li#investingLi a.dropbtn:hover, 
+#subnav.CPC li#lendingLi a.dropbtn:hover, 
+#subnav.CPC li#citiGoldLi a.dropbtn:hover,
+#subnav.CPC li#creditCardsLi a.dropbtn:focus, 
+#subnav.CPC li#bankingLi a.dropbtn:focus,
+#subnav.CPC li#investingLi a.dropbtn:focus, 
+#subnav.CPC li#lendingLi a.dropbtn:focus, 
+#subnav.CPC li#citiGoldLi a.dropbtn:focus,#subnav.CPC #openAnAccount a:focus,#subnav.CPC #openAnAccount a:hover,
+    #subnav.CPC #searchLi a:focus,#subnav.CPC #searchLi a:hover,#subnav.CPC #signOff a:focus,#subnav.CPC #signOff a:hover,
+	#subnav.CPC #signOnOffLi a:focus,#subnav.CPC #signOnOffLi a:hover
+    {
+    background-color: #8E6F32;
+    color: #fff !important;
+}
+#subnav.CPC #bankingLi .mm_subnav a:hover, 
+	#subnav.CPC #creditCardsLi .mm_subnav a:hover,
+	#subnav.CPC #lendingLi .mm_subnav a:hover, 
+	#subnav.CPC #investingLi .mm_subnav a:hover, 
+	#subnav.CPC #citiGoldLi .mm_subnav a:hover {
+    color: #8E6F32 !important;
+    text-decoration: underline !important;
+}
+.responsiveBrn #subnav.CPC  #subnav_inner #primary_nav .hcolor:hover,
+.responsiveBrn #subnav.CPC  #subnav_inner #primary_nav .hcolor:active,
+.responsiveBrn #subnav.CPC  #subnav_inner #primary_nav .hcolor:focus,
+.responsiveBrn #subnav.CPC  #subnav_inner #primary_nav .hcolor:focus-within
+{
+	  
+  background-color: #8E6F32;
+}
+.responsiveBrn #navigationBar.PrivateClient #navigationBar_inner #primary_navigationBar .hcolor:hover, 
+.responsiveBrn #navigationBar.PrivateClient #navigationBar_inner #primary_navigationBar .hcolor:active,
+.responsiveBrn #navigationBar.PrivateClient #navigationBar_inner #primary_navigationBar .hcolor:focus, 
+.responsiveBrn #navigationBar.PrivateClient #navigationBar_inner #primary_navigationBar .hcolor:focus-within{
+
+	  background-color: #8E6F32;
+          color:#fff !important;  
+}
+#citiBrandingSection .PrivateClient #browserLogo {
+    width: auto !important;
+    height: 70px !important;
+    /* top: 0px; */
+    margin: 12px 0px 0px 17px !important;
+}
+.pull-right.gold #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+.pull-right.CPC #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+.pull-right.gold #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+.pull-right.CPC #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li>a#citiGold_Link,
+li#searchLi a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li#signOff>a {
+		line-height: 20px;
+		 padding-top: 13px !important; 
+		//height: 60px;
+		margin-bottom: 1px;
+		text-indent: initial;
+		background: none;
+		width: auto;
+//background-color: rgb(0, 45, 114);
+    //height: 44px;
+	}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li>a#citiGold_Link,
+.postloginIA li#searchLi a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li#signOff>a {
+		line-height: 20px;
+		 padding-top: 13px !important; 
+		//height: 60px;
+		margin-bottom: 1px;
+		text-indent: initial;
+		background: none;
+		width: auto;
+//background-color: rgb(0, 45, 114);
+    height: 44px;
+	}
+    #citiBrandingSection .business #browserLogo{
+	width: 172px !important;
+    height: 40px !important;
+    top: 0px;
+	    margin-top: 30px !important;
+    margin-left: 10px !important;
+}
+@media (max-width: 991px){
+	.responsiveBrn.site-header{
+    min-height: 134px !important;
+  min-width:0px;
+}
+.pull-right #profileLinks{
+display:none;
+}
+#citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar{
+//width:991px;
+max-width:991px;
+}
+}
+@media (min-width: 991px){
+#citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar{
+width:100%;
+}
+#exploreProductsMobileLinks .dropdown-menu{
+padding-top: 15px;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li>a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a{
+height:none !important;
+}
+
+}
+#citilmBrand #citi-topNav-container.cbolui-ddl-topNav.citi-topNav {
+    height: 46px !important;
+}
+
+
+
+
+#citiBrandingSection a .brandingLogo:focus{
+		outline: -webkit-focus-ring-color auto 1px;
+	outline-offset: 1px;
+}
+.responsiveBrn .sia-nav_submenu li{
+	border:0px !important;
+}
+
+#signOnOffLi a{
+    padding-top: 11px;
+}
+#citi-search-icon{
+top:0px;
+}
+.englishlang,#spanishDisclaimerLink,#spanishDisclaimerLinkdesk,#atmbrnch,#atmbrnchdesk,.submenurightRD li p,#profileSettings .iconLableProfile,#profileSettingsMB .iconLableProfile{
+	text-transform:uppercase;
+}
+#searchLi a:hover{
+	//margin-right:5px;
+}
+.submenurightRD li p {
+    margin-bottom: 4px !important;
+    margin-top: 10px !important;
+}
+#signOnOffLi:hover{
+//margin-right:13px;
+}
+
+
+.pull-right {
+float:right
+}
+.pull-right ul li a{
+text-decoration:none;
+}
+
+.responsiveBrn #subnav_inner #primary_nav a.dropbtn {
+   
+    padding: 13px 16px 9px 16px;
+    
+    font-family: Interstate_Light,sans-serif!important;
+    
+}
+.responsiveBrn #subnav_inner #primary_nav a {
+   
+   
+    color: #fff;
+    
+    font-size: 16px!important;
+    
+    text-decoration: none;
+}
+
+#mobileNav{
+
+	display:none;
+}
+.mobileUL{
+	display:none;
+}
+
+	.sub_menu_dropdown .sia-nav_submenu{
+	position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+   
+	}
+#openAnAccount a{
+    font-family: Interstate_Bold !important;
+}
+.cM-whiteLock-signOn{
+display:none;
+}
+#cmlink_MODALSIGNONOVLY {
+   
+font-weight: normal !important;    
+    font-family: Interstate_Light,sans-serif!important;
+    
+}
+@media (max-width: 768px) {
+    #citiBrandingSection .redeisgnMBH .pull-right {
+        display:none;
+    }
+	#citiBrandingSection .maxWidthInner.redeisgnMBH a{
+		margin-left: -23px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	    #citiBrandingSection .redeisgnMBH .pull-right {
+        display:none;
+    }
+	#citiBrandingSection .maxWidthInner.redeisgnMBH a{
+		margin-left: -23px;
+	}
+}
+#citiBrandingSection .brandingLogo,#citiBrandingSection .brandingLogo.BB {
+    
+    margin: 18px 0 0;
+   // background: url(/GFC/branding/img/Citi-Enterprise-White.png) 0 no-repeat;
+	 background: url(/GFC/branding/img/redesigned/citilogoredesign.png) no-repeat;
+    transition: all .2s cubic-bezier(.55,.085,.68,.53);
+    z-index: 460
+	width: 85px;
+    height: 70px;
+}
+
+#citiBrandingSection .brandingLogo.BBATTACCESS {
+    background: url(/GFC/branding/responsivebranding/img/cobrand/logo_ATTAccess.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.Gold {
+    background: url(/GFC/branding/responsivebranding/img/logo_gold.png) 0 no-repeat;
+    width: 134px !important;
+    height: 37px !important;
+    margin-top: 30px !important;
+	margin-left: 31px !important;
+}
+
+#citiBrandingSection .brandingLogo.GoldTY {
+    background: url(/GFC/branding/img/redesigned/citigoldD.svg) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBATTLEGACY {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBEXP {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBAA {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBHH {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBCOSTCO {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+ #citiBrandingSection .brandingLogo.business {
+    background: url(/GFC/branding/img/redesigned/citibusinessD.svg) 0 no-repeat;
+width:200px !important;
+}
+
+#citiBrandingSection .brandingLogo.BUSINESS {
+    background: url(/GFC/branding/img/redesigned/citibusinessD.svg) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.SBOBTY {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection #citiBrandingSection .brandingLogo.NEWUSERTY {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+.responsiveBrn #citiBrandingSection.public .brandingLogo.Gold {
+        top: 4px;
+        background: url(/GFC/branding/img/redesigned/citigoldD.svg) no-repeat !important;
+        width: 141px;
+        background-size: auto 35px!important;
+    }
+    .citiATT.responsiveBrn #citiBrandingSection.public .brandingLogo {
+      
+        background: url(/GFC/branding/img/redesigned/att.svg) no-repeat !important;
+       margin-top: 16px !important;
+       // background-size: auto 35px!important;
+		width: 190px !important;
+    height: 88px !important !important;
+    margin-left: 27px !important;
+    }
+	 .responsiveBrn #citiBrandingSection.public .brandingLogo {
+        background: url(/GFC/branding/img/redesigned/citilogoredesign.png) no-repeat !important;
+        margin: 0 0 0 20px!important;
+        background-size: auto 35px;
+    }
+.responsiveBrn #citiBrandingSection .brandingLogo.Priority {
+    top: 5px;
+    width: 198px;
+    background: url(/GFC/branding/img/redesigned/priorityD.svg) no-repeat !important;
+}
+@media(min-width: 992px) {
+.responsiveBrn #citiBrandingSection.public .brandingLogo {
+       background: url(/GFC/branding/img/redesigned/citilogoredesign.png) no-repeat !important;
+        margin: 1px 0 0 20px!important;
+		width: 85px;
+    height: 70px;
+        background-size: auto 40px
+    }
+	.responsiveBrn #citiBrandingSection.public .brandingLogo.Gold {
+        top: 4px;
+        background: url(/GFC/branding/img/redesigned/citigoldD.svg) no-repeat !important;
+        width: 141px;
+        background-size: auto 35px!important
+    }
+}
+@media only screen and (max-width: 768px) {
+.responsiveBrn #citiBrandingSection.public .brandingLogo {
+ background: url(/GFC/branding/img/redesigned/citilogoredesign.png) no-repeat !important;
+	  width: 85px;
+    height: 70px;
+        margin: 0 0 0 20px!important;
+        background-size: auto 35px
+    }
+	.responsiveBrn #citiBrandingSection .brandingLogo.Gold {
+       
+        
+        top: 0;
+    background: url(/GFC/branding/img/redesigned/citigoldD.svg) no-repeat !important;
+    
+    height: 70px;
+    width: 70px;
+    }
+
+
+}
+
+@media(min-width: 769px) and (max-width:991px) {
+.responsiveBrn #citiBrandingSection.public .brandingLogo {
+         background: url(/GFC/branding/img/redesigned/citilogoredesign.png) no-repeat !important;
+        margin: 1px 0 0 20px!important;
+        background-size: auto 40px
+		width: 85px;
+    height: 70px;
+    }
+	 .responsiveBrn #citiBrandingSection .brandingLogo.Gold {
+        background-size: auto 35px;
+        top: 4px;
+        background: url(/GFC/branding/img/redesigned/citigoldD.svg) no-repeat !important;
+        width: 141px
+    }
+}
+@media(min-width: 769px) {
+    .responsiveBrn #citiBrandingSection .brandingLogo.PrivateBank {
+        background:url(/GFC/branding/img/redesigned/CPBLogo.svg) no-repeat !important;
+        width: 417px;
+        background-size: auto 40px
+    }
+}
+
+@media(max-width: 768px) {
+    .responsiveBrn #citiBrandingSection .brandingLogo.PrivateBank {
+        background:url(/GFC/branding/img/redesigned/CPBLogo.svg) no-repeat;
+        margin: 0 0 0 20px!important;
+        background-size: auto 23px;
+        width: 162px
+    }
+}
+.responsiveBrn #citiBrandingSection.public .brandingLogo.CITIBUSINESS {
+    background: url(/GFC/branding/img/redesigned/citibusinessD.svg) no-repeat !important;
+    margin: 1px 0 0 20px!important;
+    background-size: auto 40px;
+    width: 310px
+}
+
+.responsiveBrn #citiBrandingSection .brandingLogo.CITIPRIVATE,.responsiveBrn #citiBrandingSection .brandingLogo.PrivateBank {
+    background: url(/GFC/branding/img/redesigned/CPBLogo.svg) no-repeat !important;
+
+    margin: 0 0 0 20px!important;
+    background-size: auto 28px;
+    //width: 230px;
+     // transform: scale(0.25, 0.25);
+   // -ms-transform: scale(0.5, 0.5);
+    //-webkit-transform: scale(0.25, 0.25);
+   // height: 212px !important;
+    width: 280px !important;
+   // top: -68px;
+   // right: 336px;
+}
+#citiBrandingSection .brandingLogo.CPC {
+    background: url(/GFC/branding/img/redesigned/CPC.svg) 0 no-repeat;
+    width: 390px !important;
+    height: 40px !important;
+    margin: 18px 0 0 34px !important;
+}
+@media (max-width : 991px) {
+    #citiBrandingSection .brandingLogo.CPCMobile {
+        background:url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat;
+        width: 180px;
+        height: 40px;
+    }
+	}
+	#citiBrandingSection .brandingLogo,.brandingLogo.BB {
+    width: 85px;
+    height: 70px;
+    margin: 18px 0 0;
+	background: url(/GFC/branding/img/redesigned/citilogoredesign.png) no-repeat;
+    //background: url(/GFC/branding/img/Citi-Enterprise-White.png) 0 no-repeat;
+    transition: all .2s cubic-bezier(.55,.085,.68,.53);
+    z-index: 460
+}
+
+#citiBrandingSection .brandingLogo.BBATTACCESS {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.Gold {
+    background: url(/GFC/branding/img/redesigned/citigoldD.svg) 0 no-repeat;
+    width: 134px !important;
+    height: 37px !important;
+    margin-top: 30px !important;
+	margin-left: 31px !important;
+}
+
+#citiBrandingSection .brandingLogo.GoldTY {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBATTLEGACY {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBEXP {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBAA {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBHH {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.BBCOSTCO {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandin gSection.brandingLogo.BUSINESS {
+    background: url(/GFC/branding/img/redesigned/citibusinessD.svg) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.SBOBTY {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+
+#citiBrandingSection .brandingLogo.NEWUSERTY {
+    background: url(/GFC/branding/img/redesigned/citilogoredesign.png) 0 no-repeat
+}
+.sub-menu-btn{
+border: 0px !important;
+    background: #fff;
+}
+#brandingV2{
+min-width: 984px !important;
+}
+
+#header.cS-mainHeader, .cS-pageCenter, body>.cR-citiWrapper {
+    //width: 100%!important;
+   // min-width: 984px !important;
+    margin: 0 auto;
+}
+#mobileDrop .mob a, .qsublinks a, #atmBranchMob a, #localeMob a, #openAnAccountMob a{
+	text-decoration:none;
+}
+.responsiveBrn .sia-nav_submenus {
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.15);
+    z-index: 9999999;
+}
+
+
+#citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar.PrivateClient{
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    background: #281814 !important;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #navigationMenu>.open>a,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #navigationMenu>.open>a:focus, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #navigationMenu>.open>a:hover, 
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #navigationMenu #openAnAccount a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #navigationMenu #openAnAccount a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #profileLinks #searchLi a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #profileLinks #searchLi a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #profileLinks #signOff a:focus,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #8E6F32 !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+    
+    	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .navbar-default .navbar-nav>.open>a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA.PrivateClient .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+.pull-right.PrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+.pull-right.logo_priority #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #0E2A48 !important;
+}
+.pull-right.PrivateClient #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+.pull-right.logo_priority #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #0E2A48 !important;
+}
+  #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.logo_priority .navbar-default .navbar-nav>.open>a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.logo_priority .dropdown-menu li>a:hover {
+    color: #0E2A48 !important;
+}
+
+/*Benefit Builder*/
+.blue_banner_header{
+
+	background:#fff !important;
+}
+.BBredesign #citi-search-icon{
+	top:14px !important;
+}
+.blue_banner_header img{
+	//background: linear-gradient(180deg,#00bdf2,#00b3f0 18%,#0066b3 77%,#004985);
+	    //box-shadow: 0 1px 5px rgba(0,0,0,.125),0 1px 1px rgba(0,0,0,.125)!important;
+}
+.blue_banner_header #perso-citi{
+	display:none;
+}
+.BBredesign #openAnAccount #citiGold_Link, .BBredesign #citi-search-icon span{
+	font-weight: bold !important;
+    font-family: Interstate Bold !important;
+}
+#signOnOffLi #backToCiti,#signOnOffLi .signOffLeftBorder,#signOnOffLi .signOffRigthBorder{
+display:none;
+}
+.cbolui-hidden{
+	display:none;
+}
+.BBredesign #headerLogoLink img{
+	height:88px;
+	top:-20px;
+}
+.cbolui-ddl-pre .navbar {
+    border-radius:0px !important;
+}
+.cbolui-ddl-pre .navbar-default {
+   background-color: none !important;
+    border-color: none !important;
+}
+
+.BBredesign #profileLinks{
+	display:block !important;
+}
+.redeisngprofile{
+	//margin-bottom:0px !important;
+	//margin-right:10px;
+}
+.redeisgnright{
+	//margin-top:5px !important;
+	//margin-right:10px !important;
+}
+	#citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA.PrivateBank
+	{
+
+height: 46px !important;
+    top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #0E0E0E !important;
+}
+.responsiveBrn #subnav.PrivateBank {
+    height: 46px !important;
+    top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #0E0E0E;
+}
+#citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar.PrivateBank{
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+   background: #0E0E0E !important;
+}
+
+#subnav.PrivateBank	#bankingLi .mm_subnav a:hover,
+#subnav.PrivateBank #creditCardsLi .mm_subnav a:hover,
+#subnav.PrivateBank #lendingLi .mm_subnav a:hover,
+#subnav.PrivateBank #investingLi .mm_subnav a:hover,
+#subnav.PrivateBank #citiGoldLi .mm_subnav a:hover{
+color:#666666 !important;
+text-decoration: underline !important;
+}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.PrivateBank .navbar-default .navbar-nav>.open>a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.PrivateBank .dropdown-menu li>a:hover {
+    color: #666666 !important;
+}
+#subnav.PrivateBank li#creditCardsLi a.dropbtn:hover, 
+#subnav.PrivateBank li#bankingLi a.dropbtn:hover,
+#subnav.PrivateBank li#investingLi a.dropbtn:hover, 
+#subnav.PrivateBank li#lendingLi a.dropbtn:hover, 
+#subnav.PrivateBank li#citiGoldLi a.dropbtn:hover,
+#subnav.PrivateBank li#creditCardsLi a.dropbtn:focus, 
+#subnav.PrivateBank li#bankingLi a.dropbtn:focus,
+#subnav.PrivateBank li#investingLi a.dropbtn:focus, 
+#subnav.PrivateBank li#lendingLi a.dropbtn:focus, 
+#subnav.PrivateBank li#citiGoldLi a.dropbtn:focus{
+    background-color: #666666;
+    color: #fff !important;
+}
+#subnav.PrivateBank li#creditCardsLi a.dropbtn:hover,
+#subnav.PrivateBank li#bankingLi a.dropbtn:hover,
+#subnav.PrivateBank li#investingLi a.dropbtn:hover,
+#subnav.PrivateBank li#lendingLi a.dropbtn:hover,
+#subnav.PrivateBank li#citiGoldLi a.dropbtn:hover,
+#subnav.PrivateBank li#openAnAccount a#citiGold_Link:hover,
+#subnav.PrivateBank li#signOnOffLi a:hover,
+#subnav.PrivateBank li#creditCardsLi a.dropbtn:focus,
+#subnav.PrivateBank li#bankingLi a.dropbtn:focus,
+#subnav.PrivateBank li#investingLi a.dropbtn:focus,
+#subnav.PrivateBank li#lendingLi a.dropbtn:focus,
+#subnav.PrivateBank li#citiGoldLi a.dropbtn:focus,
+#subnav.PrivateBank li#openAnAccount a#citiGold_Link:focus,
+#subnav.PrivateBank li#signOnOffLi a:focus,
+#subnav.PrivateBank li#signOnOffLi a.signOffBtn:hover,
+#subnav.PrivateBank li#signOnOffLi a.signOffBtn:focus,
+#subnav.PrivateBank #searchLi a:focus, 
+#subnav.PrivateBank #searchLi a:hover, 
+#subnav.PrivateBank #signOff a:focus, 
+#subnav.PrivateBank #signOff a:hover
+{
+	background-color: #666666;
+	color:#fff !important;  
+}
+.responsiveBrn #subnav.PrivateBank  #subnav_inner #primary_nav .hcolor:hover,
+.responsiveBrn #subnav.PrivateBank  #subnav_inner #primary_nav .hcolor:active,
+.responsiveBrn #subnav.PrivateBank  #subnav_inner #primary_nav .hcolor:focus,
+.responsiveBrn #subnav.PrivateBank  #subnav_inner #primary_nav .hcolor:focus-within
+{
+	  
+  background-color: #666666;
+}
+#subnav.PrivateBank li#creditCardsLi a.dropbtn:hover,
+#subnav.PrivateBank li#bankingLi a.dropbtn:hover,
+#subnav.PrivateBank li#investingLi a.dropbtn:hover,
+#subnav.PrivateBank li#lendingLi a.dropbtn:hover,
+#subnav.PrivateBank li#citiGoldLi a.dropbtn:hover,
+#subnav.PrivateBank li#openAnAccount a#citiGold_Link:hover,
+#subnav.PrivateBank li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:hover,
+#subnav.PrivateBank li#creditCardsLi a.dropbtn:focus,
+#subnav.PrivateBank li#bankingLi a.dropbtn:focus,
+#subnav.PrivateBank li#investingLi a.dropbtn:focus,
+#subnav.PrivateBank li#lendingLi a.dropbtn:focus,
+#subnav.PrivateBank li#citiGoldLi a.dropbtn:focus,
+#subnav.PrivateBank li#openAnAccount a#citiGold_Link:focus,
+#subnav.PrivateBank li#signOnOffLi a#cmlink_CitiMODALSIGNONOVLY:focus,
+#subnav.PrivateBank li#signOnOffLi a.signOffBtn:hover,
+#subnav.PrivateBank li#signOnOffLi a.signOffBtn:focus,
+#subnav.PrivateBank #searchLi a:focus, 
+#subnav.PrivateBank #searchLi a:hover, 
+#subnav.PrivateBank #signOff a:focus, 
+#subnav.PrivateBank #signOff a:hover
+{
+	background-color: #666666;
+	color:#fff !important;  
+}
+	
+
+.pull-right.PrivateBank #profileSettings a:hover,.pull-right.PrivateBank #profileSettingsMB a:hover{
+	filter: invert(42%) sepia(17%) saturate(2%) hue-rotate(113deg) brightness(91%) contrast(96%);
+
+}
+.pull-right.PrivateBank #atmbrnch:hover,
+.pull-right.PrivateBank #atmbrnchdesk:hover{
+	filter: invert(42%) sepia(17%) saturate(2%) hue-rotate(113deg) brightness(91%) contrast(96%);
+
+}
+.pull-right.PrivateBank #spanishDisclaimerLink:hover,
+.pull-right.PrivateBank #spanishDisclaimerLinkdesk:hover{
+	filter: invert(42%) sepia(17%) saturate(2%) hue-rotate(113deg) brightness(91%) contrast(96%);
+
+}
+.pull-right.PrivateBank .englishlang:hover{
+	filter: invert(42%) sepia(17%) saturate(2%) hue-rotate(113deg) brightness(91%) contrast(96%);
+}
+#atmbrnch{
+//margin-right: 20px;
+}
+.BBredesign .blue_banner_header .pull-right  li:first-child{
+	margin-right: 15px !important;
+}
+
+.BBredesign .blue_banner_header .pull-right  #atmbrnch img{
+	top:0px !important;
+}
+.BBredesign .blue_banner_header .pull-right #atmbrnch span:hover {
+    filter: invert(24%) sepia(86%) saturate(1811%) hue-rotate(183deg) brightness(97%) contrast(96%);
+}
+.BBredesign .blue_banner_header .pull-right  #atmbrnchdesk img{
+	top:0px !important;
+}
+.BBredesign .blue_banner_header .pull-right #atmbrnchdesk span:hover {
+    filter: invert(24%) sepia(86%) saturate(1811%) hue-rotate(183deg) brightness(97%) contrast(96%);
+}
+
+
+
+
+//cbol-topnav.css
+@import url('topNavBase.css');
+
+@import url('../../common/ddl/1.1/bootstrap/styles/branding.css');
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav li a {
+    color: #333;
+	text-indent: initial;
+	background: none;
+	width: auto;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav .dropdown-menu li a {
+	height: auto;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav .dropdown-menu li a {
+	height: auto;
+}
+#citi-topNav-container .container-fluid {
+	margin: 0 auto;
+}
+#citi-topNav-containerMB .container-fluid {
+	margin: 0 auto;
+}
+#brandingDataTransfer {
+	display: none;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .cbolui-hidden {
+	display: none !important;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .cbolui-hidden {
+	display: none !important;
+}
+#citilmHeader a:hover {
+	text-decoration: none !important;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+	padding: 10px 0;
+	border: none;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+	padding: 10px 0;
+	border: none;
+}
+
+#citilmHeader a.iaCitiLink:hover {
+	text-decoration: underline !important;
+}
+
+
+
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav {
+	//background: #fff !important;
+	//color: #333 !important;
+	margin-top: 0px !important;
+	/*box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;*/
+	border-bottom: none;
+	z-index: 1000;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav {
+	//background: #fff !important;
+	//color: #333 !important;
+	margin-top: 0px !important;
+	/*box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;*/
+	border-bottom: none;
+	z-index: 1000;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default {
+	//background: #fff !important;
+	border: none;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default {
+	//background: #fff !important;
+	border: none;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav li>a:focus {
+	//color: #056dae;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav .dropdown-menu li>a {
+	display: block;
+	/*padding: 3px 20px;*/
+	clear: both;
+	font-weight: 400;
+	line-height: 1.5;
+	//color: #767676;
+	white-space: nowrap;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav li>a:focus {
+	//color: #056dae;
+}
+
+#citi-topNav-containerMB.cbolui-ddl-topNav .dropdown-menu li>a {
+	display: block;
+	/*padding: 3px 20px;*/
+	clear: both;
+	font-weight: 400;
+	line-height: 1.5;
+	//color: #767676;
+	white-space: nowrap;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav li {
+	margin-bottom: 0;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-nav li {
+	margin-bottom: 0;
+}
+.nav.navbar-nav.profileSection,
+.nav.navbar-nav.profileSection .glyphicon-user {
+	float: right;
+}
+
+#profileSettings .glyphicon {
+	display: block !important;
+}
+#profileSettingsMB .glyphicon {
+	display: block !important;
+}
+
+.nav.navbar-nav.profileSection .dropdown .productExplorer {
+	left: -450px;
+}
+
+.nav.navbar-nav.profileSection .dropdown-menu {
+	left: -197px;
+}
+
+.cbolui-ddl-topNav .navbar-default .navbar-nav.profileSection.profileSection.profileSection>.open>a,
+.cbolui-ddl-topNav .navbar-default .navbar-nav.profileSection.profileSection>.open>a:focus,
+.cbolui-ddl-topNav .navbar-default .navbar-nav.profileSection>.open>a:hover {
+	width: 50px;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    //color: #056DAE !important;
+}
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+.citiGoldAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover,
+.citiGoldAccount #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+.citiGoldAccount #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+
+
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a .iconLableProductExplorer,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus .iconLableProductExplorer,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover .iconLableProductExplorer {
+	font-size: 12px;
+	font-family: interstate_light !important;
+	position: absolute;
+	bottom: 0px;
+	left: 6px;
+	//color: #056DAE;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .iconLableProductExplorer {
+	font-size: 12px;
+	font-family: interstate_light !important;
+	position: absolute;
+	bottom: 5px;
+	left: 6px;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a .iconLableProfile,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus .iconLableProfile,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover .iconLableProfile {
+	font-size: 12px;
+	font-family: interstate_light !important;
+	position: absolute;
+	bottom: 0px;
+	//color: #056DAE;
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a .iconLableProfile,
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus .iconLableProfile,
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover .iconLableProfile {
+	font-size: 12px;
+	font-family: interstate_light !important;
+	position: absolute;
+	bottom: 0px;
+	//color: #056DAE;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .iconLableProfile {
+	font-size: 12px;
+	font-family: interstate_light !important;
+	position: absolute;
+	bottom: 5px;
+	/* left: 13px; */
+}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default .iconLableProfile {
+	font-size: 12px;
+	font-family: interstate_light !important;
+	position: absolute;
+	bottom: 5px;
+	/* left: 13px; */
+}
+/* Reverting Product Explorer Offer changes*/
+
+
+
+.glyphicon:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .profileIconMobile:hover,
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .profileIconDesktop:hover {
+	cursor: pointer;
+}
+.glyphicon:hover,
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .profileIconMobile:hover,
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .profileIconDesktop:hover {
+	cursor: pointer;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .subHederTitle {
+	font-size: 28px;
+	font-family: Interstate_Bold !important;
+	padding: 20px 30px 10px 30px;
+}
+
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .subHeaderText {
+	font-size: 16px;
+	font-family: Interstate_Light;
+	line-height: 26px;
+	//color: #666666;
+	padding: 10px 30px;
+}
+
+/*Styles for Desktop and large devices*/
+@media (min-width : 992px) {
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown {
+		width: auto;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav #profileSettings .glyphicon.glyphicon-cog {
+		position: relative;
+		top: 5px;
+		margin-right: 10px;
+		float: left;
+	}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown {
+		width: auto;
+	}
+
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav #profileSettings .glyphicon.glyphicon-cog {
+		position: relative;
+		top: 5px;
+		margin-right: 10px;
+		float: left;
+	}
+	/* Profile updates
+    #citi-topNav-container.cbolui-ddl-topNav.citi-topNav #profileLinks #profileSettings .dropdown-menu li:last-child {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top:10px;
+        display: block;
+    }*/
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav {
+		height: 60px;
+	}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-default,
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav {
+		height: 60px;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav #profileSettings a.dropdown-toggle {
+		width: 60px;
+		padding-left: 18px;
+	}
+	
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav #profileSettings a.dropdown-toggle {
+		width: 60px;
+		padding-left: 18px;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav #productExplorer a.dropdown-toggle {
+		width: 60px;
+		padding-left: 18px;
+	}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav #productExplorer a.dropdown-toggle {
+		width: 60px;
+		padding-left: 18px;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li>a,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav h4,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .paymentsandTransfers .dropdown-menu #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .dropdown-menu {
+		font-size: 16px;
+		//background-color: #fff;
+	}
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-nav>li>a,
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a,
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav h4,
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu,
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .paymentsandTransfers .dropdown-menu #citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .productExplorer .dropdown-menu {
+		font-size: 16px;
+		//background-color: #fff;
+	}
+
+	.collase.navbar-collapse {
+		padding-left: 0;
+		position: relative;
+	}
+
+	/*#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+        margin-top : 1px;
+    }*/
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .glyphicon,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-brand,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .divider,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-toggle,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .seperator,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .mobileUser,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .profileIconMobile,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .titleSeperator,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .cbolui-hidden {
+		display: none !important;
+	}
+
+	/*Profile updates*/
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .titleSeperatorDesktop {
+		//border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+		margin-left: 20px !important;
+		clear: both;
+		margin-right: 20px !important;
+		position: relative;
+	}
+
+	#citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar {
+		border-radius: 0;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;
+		border-radius: 0 !important;
+	}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar {
+		border-radius: 0;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, .125), 0 1px 1px rgba(0, 0, 0, .125) !important;
+		border-radius: 0 !important;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li>a {
+		line-height: 20px;
+		padding: 23px 20px 17px;
+		height: 60px;
+		margin-bottom: 1px;
+		text-indent: initial;
+		background: none;
+		width: auto;
+	}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .navbar-nav>li>a {
+		line-height: 20px;
+		padding: 23px 20px 17px;
+		height: 60px;
+		margin-bottom: 1px;
+		text-indent: initial;
+		background: none;
+		width: auto;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu>li {
+		margin-bottom: 0;
+	}
+
+	/*#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-nav>li>.dropdown-menu {
+           margin-top:10px;
+        }*/
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+		min-width: 250px;
+		min-height: 60px;
+		/*profile updates changes*/
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+		border-radius: 0;
+	}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu {
+		min-width: 250px;
+		min-height: 60px;
+		/*profile updates changes*/
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+		border-radius: 0;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .paymentsandTransfers .dropdown-menu,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .accountsSection .dropdown-menu {
+		min-width: 500px;
+		/*padding-right: 40px;*/
+	}
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .paymentsandTransfers .dropdown-menu,
+	#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .accountsSection .dropdown-menu {
+		min-width: 500px;
+		/*padding-right: 40px;*/
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .exploreProducts .dropdown-menu{
+	//min-width: 750px;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .dropdown-menu {
+		min-width: 500px;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a {
+		white-space: pre-wrap;
+		padding: 10px 20px;
+	}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a {
+		white-space: pre-wrap;
+		padding: 10px 20px;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu .productExplorer {
+		margin-top: 10px;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav #topNavAccounts .dropdown-menu li>a {
+		white-space: normal;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .paymentsandTransfers .leftSection,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .accountsSection .leftSection,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .exploreProducts .leftSection,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .exploreProducts .middleSection {
+		float: left;
+		width: 230px;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .paymentsandTransfers .rightSection,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .accountsSection .rightSection{
+		float: right;
+		width: 230px;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .exploreProducts .rightSection {
+		float: right;
+		width: 290px;
+	}
+	
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .exploreProducts .middleBottomSection {
+		position: absolute;
+		left: 31%;
+		top: 80%;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .leftSection {
+		float: left;
+		width: 250px;
+		padding: 0px 0px 0px 20px;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .rightSection {
+		float: right;
+		width: 250px;
+		padding: 0px 30px;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .subMenuLink {
+		//color: #056DAE;
+		font-family: Interstate_bold;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .subMenuLink:hover {
+		//color: #002A54;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .productExplorer .productExplorerBorder {
+		//border-bottom: 1px solid #999999;
+		width: 440px;
+		padding-top: 10px;
+		margin-left: 10px
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .accountsSection .leftSection a span,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .accountsSection .rightSection a span {
+		display: block;
+	}
+
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .pntTitle {
+		padding-left: 20px;
+		padding-top: 10px;
+		font-size: 12px;
+		//color: #666666;
+		letter-spacing: 1.75px;
+		text-transform: uppercase;
+		line-height: 18px;
+		width: 200px;
+		margin-bottom: 10px;
+	}
+#citi-topNav-containerMB.cbolui-ddl-topNav.citi-topNav .pntTitle {
+		padding-left: 20px;
+		padding-top: 10px;
+		font-size: 12px;
+		//color: #666666;
+		letter-spacing: 1.75px;
+		text-transform: uppercase;
+		line-height: 18px;
+		width: 200px;
+		margin-bottom: 10px;
+	}
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:focus,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover {
+		//background: #fff !important;
+		//border-bottom: 5px solid #056dae;
+		height: 60px;
+	}
+
+	/*#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a.selectedMenu, 
+     #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a.selectedMenu:hover{
+        border-bottom: 5px solid #333;
+        color:#333;
+    }*/
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav a.selectedMenu {
+		//border-bottom: 5px solid #333;
+	}
+
+	table.gstl_50.gssb_c {
+		max-width: 345px !important;
+	}
+
+	
+}
+
+
+
+
+.citiPBAccount #citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA {
+    height: 46px !important;
+    //top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #0E0E0E !important;
+}
+.citiPBAccount #citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar {
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    background: #0E0E0E !important;
+}
+
+.citiPrivateClient #citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA {
+    height: 46px !important;
+    //top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #281814 !important;
+}
+.citiPrivateClient #citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar {
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    background: #281814 !important;
+}
+
+.citiGoldAccount #citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA {
+    height: 46px !important;
+    //top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #8E6F32 !important;
+}
+.citiGoldAccount #citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar {
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    background: #8E6F32 !important;
+}
+
+.citiPriorityAccount #citi-topNav-container.citi-topNav.cbolui-ddl-topNav.postloginIA {
+    height: 46px !important;
+    //top: 89px !important;
+    border-bottom: none !important;
+    z-index: 50;
+    width: 100%;
+    background: #091022 !important;
+}
+.citiPriorityAccount #citi-topNav-container#citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar {
+    min-height: 46px !important;
+    height: 46px !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    background: #091022 !important;
+}
+
+	
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+.citiPBAccount #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #666666 !important;
+}
+
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a,
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:focus, 
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu>.open>a:hover, 
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:focus,
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #navigationMenu #openAnAccount a:hover,
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:focus,
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #searchLi a:hover,
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:focus,
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav.postloginIA .navbar-default #profileLinks #signOff a:hover {
+		
+	background-color: #8E6F32 !important;
+    color: #fff;
+   border-bottom:0px !important;
+    height:46px !important;
+	}
+	
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default .navbar-nav>.open>a:hover,
+.citiPrivateClient #citi-topNav-container.cbolui-ddl-topNav.citi-topNav .dropdown-menu li>a:hover {
+    color: #8E6F32 !important;
+}
+	
+
+
+.redeisgnright.PrivateBank #profileLinks{
+	display:block;
+}
+.redeisngprofile{
+	margin-bottom:0px !important;
+	margin-right:20px;
+}
+.navbar.navbar-default{
+	background:none;
+}
+#citiBrandingSection .pull-right li{
+	margin-bottom:0px;
+}
+#citiBrandingSection .pull-right.redesty{
+margin-top: 27px !important;
+margin-right:5px;
+}
+#citiBrandingSection .relbrand{
+	background:none;
+}
+#atmbrnch img, #atmbrnchdesk img{
+	top:1px !important;
+	margin-bottom:0px !important;
+}
+a#atmbrnch,a#atmbrnchdesk,
+a#spanishDisclaimerLink,a#spanishDisclaimerLinkdesk{
+padding-top:12px;
+}
+#localeMob img{
+margin-bottom: 0 !important;
+}
+.cbolui-ddl .dropdown-menu>li>a:focus,.cbolui-ddl .dropdown-menu>li>a:hover {
+    text-decoration: none;
+    background-color:#fff
+}
+.atmredesign img{
+ top:0px; 
+}
+ul.accountsfirstUL, ul.accountssecondUL{
+	padding-left:0px;
+}
+.citiPriorityAccount #citiBrandingSection .brandingLogo{
+	height: 48px !important;
+width: 80px !important;
+}
+#navigationMenu ul{
+
+	padding-left:0px;
+}
+#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a:focus,
+	#citi-topNav-container.cbolui-ddl-topNav.citi-topNav .navbar-default #navigationMenu>.open>a:hover ,#subnav.Gold #openAnAccount a:focus,#subnav.Gold #openAnAccount a:hover,
+    #subnav.Gold #searchLi a:focus,#subnav.Gold #searchLi a:hover,#subnav.Gold #signOff a:focus,#subnav.Gold #signOff a:hover,
+	#subnav.Gold #signOnOffLi a:focus,#subnav.Gold #signOnOffLi a:hover
+    {
+		background-color: #163C6A;
+		color: #fff !important;
+		border-bottom:0px !important;
+		//height:49px !important;
+	}
+.rightLinks li a:hover{
+//	padding-right:0px !important;
+}
+.lang_es .responsiveBrn #subnav_inner #primary_nav a.dropbtn {
+   
+    padding: 13px 14px 9px 13px;
+    
+    font-family: Interstate_Light,sans-serif!important;
+    
+}
+#citilmHeader.BBCOSTCO.BBredesign #headerLogoLink img {
+    height: 38px !important;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+.searchText.searchBlack{
+	display:none;
+}
+.mobileUL #signOnOffLi li.subnav_inner-btn{
+	margin-top:-13px;
+}
+@media screen and (max-width: 1120px){
+  #cmlink_CitiMODALSIGNONOVLY{
+color: #fff;
+    margin-right: 25px;
+}
+}
+ #cmlink_CitiMODALSIGNONOVLY{
+color: #fff;
+    margin-right: 36px;
+font-family: Interstate_Light,sans-serif!important;
+    font-size: 16px;
+}
+#aUSCBOL_t_sAccessibility .cR-citiWrapper,#aUSCBOL_t_sPrivacy .cR-citiWrapper {
+  min-widthpx !important;
+} 
+#signOnOffLi a{
+color: #fff;
+  font-family: Interstate_Light,sans-serif!important;
+    font-size: 16px;
+}
+@media (max-width: 768px){
+#subnav_inner {
+    width: 59.5% !important;
+}
+#brandingV2 #subnav_inner {
+    width: 59.5% !important;
+}
+}
+#signOnOffLi a:hover{
+	margin-right: 22px;
+   
+}
+
+#aUSCBOL_t_sAccessibility #subnav_inner .divider ,#aUSCBOL_t_sPrivacy #subnav_inner .divider {
+  
+    //width:14px !important;
+   
+} 
+#signOnOffLi a.signOnBtn {
+   
+    margin-right: 14px;
+}
+.responsiveBrn div.menu-nav.sessionOpt ul.mega-menu li.subnav_inner-btn a:focus, .responsiveBrn div.menu-nav.sessionOpt ul.mega-menu li.subnav_inner-btn a:hover {
+    border-bottom: 0px;
+   color: #fff!important;
+}
+.cbolui-ddl-pre .responsiveBrn .container-fluid {
+    max-width: 1440px !important;
+}
+.BBEXP .blue_banner_header #headerLogoLink img {
+ 
+   max-width: 200px !important;
+   height: 50px !important;
+   top: 0px;
+   left: 14px;
+}
+#citilmHeader.reskinHeader.ATTBB .blue_banner_header {
+    background: #fff !important;
+    box-shadow: 0 1px 5px rgba(0,0,0,.125),0 1px 1px rgba(0,0,0,.125)!important;
+}
+.ATTBB .blue_banner_header #headerLogoLink img {
+ 
+   max-width: 250px !important;
+   height: 70px !important;
+   top: -20px;
+   left:10px;
+}
+.BBAA .blue_banner_header #headerLogoLink img {
+ 
+   max-width: 250px !important;
+   height: 50px !important;
+   top: 0px;
+   left:10px;
+}
+#signOnOffLi{
+	display:inline-block;
+	float:right;
+margin-left:20px;
+cursor:pointer;
+}
+.citiallinace .middleSection1 h4 ,.citiallinace .rightSection h4,#exploreProductsMobileLinks.citiallinace #investingSubdrop,#exploreProductsMobileLinks.citiallinace #wealthManagementSubdrop{
+	display:none !important;
+}
+.brandingLogo.Alliance{
+	margin:0px 0px 0px 17px !important;
+}
+ ul li {
+	padding-bottom:0px !important;
+}
+#bs-example-navbar-collapse-1MB{
+	margin-right:40px !important;
+}
+.card-benefits .fico-score-wheel{
+	z-index:100;
+}
+.responsiveBrn #citiBrandingSection.public .brandingLogo{
+//background: url(/GFC/branding/img/redesigned/Citi_Rainbow_Pride1.jpg) no-repeat !important;
+   // margin: 1px 0 0 11px!important;
+   // width: 90px !important;
+   // height: 70px !important;
+   // background-size: cover !important;
+
+}
+.cbolui-ddl-pre .navbar-default {
+    background-color:#fff !important;
+    }

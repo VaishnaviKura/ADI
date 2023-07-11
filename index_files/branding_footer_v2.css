@@ -1,0 +1,785 @@
+.citiFooter {
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+	padding: 40px 0px 0 !important;
+	background-color: #333333 !important;
+	position: absolute;
+    width: 100%;
+    margin-top:50px;
+	}
+.cbolui-ddl footer{
+ display:none; 
+}
+.citiFooter .mobileAppStore{
+ margin-top:45px; 
+}
+#speedBumpBody h2{
+    white-space: normal !important;
+}
+.citiFooter p, .citiFooter small, .citiFooter a:hover {
+color: #fff;
+}
+.citiFooter .verticalMenu{
+    height: 250px;
+}
+.citiFooter .verticalMenu sup {
+    vertical-align: super;
+    font-size: xx-small;
+  top: 0px;
+}
+
+.citiFooter li, .desktopMenuView li {
+color: #fff;
+font-family: Interstate_Light;
+text-decoration: none;
+list-style:none;
+margin-bottom: 8px;
+}
+.citiFooter .footerInner a:focus{
+color:#fff !important;
+}
+.citiFooter .footerInner a:hover,
+.citiFooter #countryLink:hover
+{
+text-decoration: underline;
+}
+.citiFooter .socialMediaLinks a, .citiFooter .socialMediaLinks a:hover{
+text-decoration: none !important;
+}
+.citiFooter .footerInner{
+max-width: 1440px;
+    margin: 0 auto;
+	padding: 0 6.667% !important;
+}
+.citiFooter .footerInner a{
+color: #fff;
+font-size: 12px;
+line-height: 18px;
+text-decoration: none;
+}
+.citiFooter .mobileStyleMenu{
+    width: 100%;
+	float: left;
+	position: relative;
+    min-height: 1px;
+}
+.citiFooter #whyCitiPadding{
+padding-bottom: 30px !important;
+}
+
+.citiFooter .columnLinks{
+float: left;
+position: relative;
+min-height: 1px;
+width: 16.66667%;
+}
+
+.citiFooter .columnLinks{
+ padding-right:20px; 
+}
+.citiFooter .width10{
+ width:10% !important; 
+}
+.citiFooter .width12{
+ width:12% !important; 
+}
+.citiFooter .width14{
+ width:14% !important; 
+}
+.citiFooter .width15{
+      width: 15% !important;
+}
+.citiFooter .width16{
+      width: 16% !important;
+}
+.citiFooter .width13{
+  width: 13% !important;
+}
+.citiFooter .width12{
+  width: 12% !important;
+}
+.citiFooter .width18{
+   width: 18% !important;
+}
+.citiFooter .width22{
+   width: 22% !important;
+}
+
+.citiFooter .footerColumnHeading{
+line-height: 24px !important;
+padding-bottom: 10px !important;
+margin-bottom: 0 !important;
+font-weight: 400;
+text-transform: none;
+letter-spacing: 0;
+}
+.citiFooter .desktopMenuView{
+display: grid;
+}
+.citiFooter .desktopMenuView li{
+padding-bottom: 10px;
+display: inherit;
+}
+.citiFooter .desktopMenuView h4{
+color: #fff;
+font-size: 14px !important;
+font-family: Interstate_Bold;
+margin-top:0px !important;
+font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0px !important;
+}
+.citiFooter .desktopMenuView div{
+color: #fff;
+font-size: 14px !important;
+font-family: Interstate_Bold;
+margin-top:0px !important;
+font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0px !important;
+}
+.citiFooter .desktopMenuView h3{
+color: #fff;
+font-size: 14px !important;
+font-family: Interstate_Bold;
+margin-top:0px !important;
+font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0px !important;
+}
+.citiFooter .desktopMenuView h2{
+color: #fff;
+font-size: 14px !important;
+font-family: Interstate_Bold;
+margin-top:0px !important;
+}
+
+.citiFooter #JDPowerDownload {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 20px;
+	color:#fff;
+	padding-right: 105px;
+	    font-size: 14px !important;
+font-family: Interstate_Light;
+font-weight:normal;
+}
+.citiFooter #JDPowerDownload:hover,.citiFooter #JDPowerDownload:active{
+text-decoration: underline;
+}
+.citiFooter .enterLocationText{
+margin: 3px 0 5px !important;
+border: 1px solid #fff;
+box-shadow: none;
+border-radius: 6px;
+transition: border-color ease-in-out 225ms;
+font-style: italic !important;
+font-size: 12px !important;
+height: 36px !important;
+width: 140px !important;
+text-indent: 8px !important;
+}
+.citiFooter .findLocationBtn{
+line-height: 34px !important;
+margin: 3px 0px 0px 0 !important;
+background-color: #008FC9 !important;
+border-color: #008FC9 !important;
+border-bottom: 0;
+color: #fff;
+border-width: 2px;
+border-style: solid;
+position: relative;
+vertical-align: middle;
+text-align: center;
+font-family: Interstate_Light;
+-webkit-font-smoothing: antialiased;
+font-weight: 700;
+border-radius: 6px;
+touch-action: manipulation;
+cursor: pointer;
+white-space: nowrap;
+display:block;
+width: 140px;
+height: 36px;
+user-select: none;
+text-decoration:none !important;
+}
+.citiFooter .copyRightLinks li{
+margin :0 !important;
+padding-right: 24px;
+}
+.citiFooter #countrySpan {
+    font-size: 12px;
+    display: inline-block;
+    color: #fff;
+}
+.citiFooter #countryLink {
+    display: inline-block;
+    font-family: Interstate_Bold !important;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.citiFooter #countryLink:after {
+    content: '';
+    padding-left: 11px;
+    background: url(/CBOL/common/ui/ddl/theme/latest/images/icons/svgs/arrows/arrow-btn-next-white-sm-bold.svg) no-repeat;
+    background-position-y: 3px;
+    background-position-x: 3px;
+}
+.citiFooter .fdicHousingLogo{
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+	float: right;
+	margin-top: 10px;
+	max-width: 100%;
+}
+.citiFooter #housingLogo,.citiFooter #housingLogodesk{
+padding-right: 0;
+    float: right;
+	    width: auto;
+		position: relative;
+    min-height: 1px;
+
+}
+.citiFooter #homeSpriteLogo,.citiFooter #homeSpriteLogodesk{
+    width: 33.3px !important;
+	background-position: 0 100%;
+	height: 30px;
+    background-size: 70px;
+	cursor: inherit!important;
+}
+.citiFooter .spriteImages{
+background-image: url(/GFC/branding/img/Citi-Branding-Sprite.png);
+background-repeat: no-repeat;
+display: inline-block;
+}
+
+.citiFooter #FDICLogo, .citiFooter #FDICLogodesk{
+    margin-right: 10px;
+	padding-right: 0;
+    float: right;
+	    width: auto;
+		position: relative;
+    min-height: 1px;
+}
+
+.citiFooter #fdicSpriteLogo, .citiFooter #fdicSpriteLogodesk{
+    width: 52px !important;
+    height: 30px;
+    background-size: 70px;
+    background-position: 0 79%;
+cursor: inherit!important;	
+}
+
+.citiFooter #PlayStoreBadge, .citiFooter #AppStoreBadge{
+margin-bottom: 20px;
+    margin-top: -4px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 24px;
+}
+.citiFooter .googlePlayImageLogo{
+border-radius: 8px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: cover;
+    height: 40px;
+    display: block;
+    border: 1px solid;
+	width: 130px ;
+	background-image: url(/GFC/branding/responsivebranding/img/googlePlay_2px.png);
+    background-position: center;
+}
+
+.citiFooter .appStoreImageLogo{
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 118px;
+    background-size: cover;
+    height: 40px;
+    display: block;
+    border: 1px solid;
+	background-image: url(/GFC/branding/responsivebranding/img/appStore_2px.png);
+    background-position: left;
+}
+.citiFooter .socialMediaLinks{
+float: right;
+}
+
+.citiFooter .facebookImage{
+	width: 9px;
+	height: 16px;
+	margin-right: 24px;
+	}
+.citiFooter .twitterImage{
+	width: 22px;
+	height: 16px;
+	margin-right: 24px;
+}
+	
+.citiFooter .youtubeImage{
+	width: 24px;
+	height: 16px;
+}
+.citiFooter .copyrightBorders{
+padding: 23px 10px 23px 0 !important;
+position: relative;
+    border-top: 1px solid hsla(0,0%,100%,.25)!important;
+    border-bottom: 1px solid hsla(0,0%,100%,.25)!important;
+    padding: 20px 10px 20px 0!important;
+    height: 100%;
+    width: 100%;
+}
+.citiFooter .copyrightSection{
+    padding-right: 24px !important;
+	display: inline-block;
+}
+.citiFooter b#copyrightVersionDate{
+color: #fff;
+font-size: 12px;
+}
+
+.citiFooter .copyRightLinks{
+display: inline;
+padding-left: 0;
+list-style: none;
+line-height: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
+	max-width: 100%;
+}
+.citiFooter .copyRightLinks li{
+display: inline-block;
+}
+.citiFooter .footerDisclaimerSection{
+width: 100%;
+    float: left;
+	    position: relative;
+    min-height: 1px;
+	padding: 24px 0 !important;
+
+}
+
+.citiFooter #footerDisclaimerHeading{
+padding-bottom: 16px;
+font-size:12px;
+}
+.citiFooter .footerAppVersion{
+padding-bottom: 20px;
+}
+.citiFooter #appVersionText{
+float:left;
+
+top: 75px;
+}
+.citiFooter .footerDisclaimerSection p{
+margin : 0 !important;
+}
+.citiFooter #footerCitiLogo,
+.citiFooter #footerCitiLogoMobile{
+width:100%;
+margin:0px !important;
+cursor: default;
+}
+.citiFooter .JDPowerPopupHeading{
+margin-bottom: 30px !important;
+line-height: normal !important;
+font-size: 2.625rem !important;
+    font-family: Interstate_Light !important;
+    color: #333 !important;
+    font-weight: 400 !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+	text-align:left !important;
+}
+.citiFooter #JDPowerLink{
+font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Interstate_Light;
+	color: #056dae;
+	text-decoration:underline;
+}
+#overlayBtn,
+#overlayContinueBtn
+#JDPowerContinue{
+    max-width: 220px;
+    margin: 0;
+	float: right;
+    width: 100%;
+	color: #fff;
+    border-color: #056DAE;
+    background: #056DAE;
+	line-height: 46px;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+	font-size: 1rem;
+    font-family: Interstate_Bold;
+	font-weight: 700;
+    border-radius: 6px;
+	text-align: center;
+    text-decoration: none;
+}
+#overlayBtn:hover,
+#overlayBtn:focus,
+#overlayContinueBtn:hover,
+#overlayContinueBtn:focus,
+#JDPowerContinue:hover,
+#JDPowerContinue:focus{
+    color: #fff;
+    background-color: #002A54;
+    border-color: #002A54;
+	}
+#JDPowerLink:hover,
+#JDPowerLink:focus{
+color: #002a54 !important;
+
+}
+.modal-dialog p,
+.modal-dialog a{
+color:#333;
+}
+.modal-dialog p{
+text-align:left;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.modal {
+display:none;
+    z-index: 9999999999!important;
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	transition: opacity .15s linear;
+}
+.fade.in {
+   // opacity: 1;
+	}
+	
+button.close {
+background-image: url(/loginpage/images/icons/svgs/close.svg) !important;
+    padding: 0;
+    cursor: pointer;
+    background: 10px no-repeat;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+}
+ button.close:hover {
+    background-image: url(/CBOL/common/ui/ddl/theme/latest/images/icons/svgs/close-focus.svg) !important;
+	right: 13px !important;
+}
+	
+	.modal button.close {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+	
+	.modal-dialog {
+    width: 55%;
+    max-width: 1200px;
+	margin: 30px auto;
+	    position: relative;
+}
+
+button.close span {
+    position: absolute!important;
+    clip: rect(1px,1px,1px,1px);
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.citiFooter span#cbol-footer-server {
+    position: absolute;
+    bottom: 20px;
+	left: 0px;
+}
+.citiFooter span#cbol-footer-mlc{
+display:none;
+}
+
+.citiFooter #JDPower_learnMoreModalBody p{
+font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Interstate_Light !important;
+}
+
+.citiFooter .footerDisclaimerSection small{
+font-size:12px;
+line-height: 18px;
+}
+
+.citi_sp_pumb_content{
+
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Interstate_Light !important;
+	}
+	
+footer.citiFooter .accordion ul.mainnav{
+	border-bottom: none !important;
+	margin-top:0px !important;
+	}
+	footer.citiFooter .accordion {
+    margin-bottom: 25px !important;
+}
+footer.citiFooter .accordion-footer.menu ul li .accordionSubMenu li{
+padding-bottom: 0px!important; 
+margin-left: 0px !important; 
+padding-left: 0px !important;
+margin-bottom: 15px;
+}
+@media screen and (max-width: 1175px){
+.citiFooter .columnLinks{
+padding-right:10px;
+}
+}
+@media screen and (min-width: 991px){
+.mobileFooter,
+footer.citiFooter .accordion.menu.accordion-footer.cbolui-accordion-initialize.accordionToColumns {
+    display: none;
+}
+.citiFooter #footerCitiLogoMobile{
+  display:none;
+}
+.JDPower_icon img {
+margin-top: -74px !important;
+}
+}
+@media screen and (min-width: 991px){
+
+.JDPower_icon img {
+margin-top: -74px !important;
+}
+}
+
+@media screen and (max-width: 991px){
+.citiFooter .desktopMenuView{
+ display: none;
+}
+.citiFooter #footerCitiLogoMobile{
+  display:none;
+}
+.citiFooter .footerInner{
+padding: 0 5% !important;
+}
+.citiFooter{
+padding: 8px 0 0 0 !important;
+}
+
+.citiFooter .enterLocationText{
+width:100% !important;
+}
+.citiFooter .findLocationBtn{
+width: 100%;
+display: block;
+height: 36px;
+line-height: 2.5 !important;
+}
+.citiFooter .fdicHousingLogo{
+    margin-left: 5px !important;
+	float: left !important;
+    margin-top: 24px !important;
+}
+.citiFooter .googlePlayImageLogo{
+width:117px !important;
+height:36px !important;
+}
+.citiFooter .appStoreImageLogo{
+width:105px !important;
+height:36px !important;
+}
+
+.citiFooter #PlayStoreBadge,.citiFooter #AppStoreBadge{
+margin-top: 5px !important;
+margin-right: 10px !important;
+}
+.citiFooter .JDPower_icon{
+position: absolute;
+padding-left:8px;
+}
+
+.citiFooter .JDPower_icon img{
+margin-left: 0px !important;
+}
+
+.citiFooter #JDPowerDownload{
+        position: absolute !important;
+    margin-top: 10px !important;
+    margin-left: 65px !important;
+	    font-size: 12px !important;
+		padding-right: 0px !important;
+}
+
+}
+
+@media screen and (max-width: 795px){
+.socialMediaLinks{
+    float: none;
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 768px){
+
+.copyRightLinks li{
+width:100%;
+padding-bottom:10px;
+}
+.copyrightSection{
+
+padding-bottom:10px;
+}
+
+
+}
+
+
+@media screen and (max-width: 657px){
+
+#JDPowerDownload{
+position: relative!important;
+margin-left: 0px !important;
+margin-top: 5px !important;
+margin-bottom: 15px;
+margin:0 !important;
+display: block;
+}
+.socialMediaLinks {
+  margin-top: 15px;
+}
+#PlayStoreBadge, #AppStoreBadge{
+margin-bottom:10px;
+}
+}
+
+@media screen and (max-width: 520px){
+#footerCitiLogo{
+display:none;
+}
+#footerCitiLogoMobile{
+  display:block;
+}
+}
+
+@media(min-width:1440px){ .modal.fade .modal-dialog{width:55%;max-width:1200px;height:415px;margin:30px auto 0;}}
+.modal-header{padding-top:30px;padding-bottom:30px;border-bottom:0}
+ .modal-title{margin:0 0 20px !important;line-height:normal; font-size: 2.625rem; font-family: Interstate_Light !important; font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;}
+
+ .modal-content{background-color:#fff;border:0;text-align:left;border-radius:0;}
+ .modal-body{padding:0 40px;border-bottom:0 none}
+.modal-footer{padding-top:40px!important;padding:20px 40px 75px;margin:0;border-top:0 none;text-align:right}
+
+
+
+footer.citiFooter .mainnav b {
+    color: #fff;
+    font-size: 14px;
+}
+
+footer.citiFooter .accordion ul li, footer.citiFooter .accordion ul.subnav li{
+background-color: #333333 !important;
+text-indent:0 !important;
+}
+
+footer.citiFooter ul.mainnav>li.is-expanded>.accordionSubMenu,
+footer.citiFooter .accordion ul.mainnav li.parent.is-expanded .category{
+background-color: #333333 !important;
+}
+
+footer.citiFooter ul.mainnav li.parent{
+border-bottom: 1px solid #999 !important;
+margin-top:0 !important;
+}
+
+footer.citiFooter .accordion.menu{
+margin-top:0 !important;
+    display: flow-root;
+}
+footer.citiFooter .accordion ul.mainnav li.parent{
+    border-top: none !important;
+}
+.citiFooter .svg-arrow{
+float: right;
+    margin-top: 8px !important;
+	position: inherit !important;
+	top:0 !important;
+}
+
+.citiFooter ul.mainnav li.parent .category, .cbolui-ddl .accordion ul.mainnav>li .category,
+footer.citiFooter .accordion-footer.menu ul li .category:hover{
+padding: 17px 20px 17px 0px !important;
+}
+
+.cbolui-ddl .accordion ul.mainnav li.parent .accordionSubMenu, .cbolui-ddl .accordion ul.mainnav>li .accordionSubMenu{
+    padding: 0 20px 0 0 !important;
+}
+footer.citiFooter div.accordionSubMenu{
+padding:0 !important;
+}
+footer.citiFooter .accordionSubMenu ul li{
+padding-left: 0px!important;
+list-style: none !important;
+}
+footer.citiFooter .accordion ul.mainnav>li.is-expanded .accordionSubMenu ul{
+padding:0 !important;
+}
+.citiFooter .accordion.menu ul li .svg-arrow{
+background-image: url(/GFC/branding/responsivebranding/img/arrow-btn-down-white-sm.png)!important;
+}
+.citiFooter .atmBranchMobile{
+width: 100%;
+padding-top: 20px;
+}
+.citiFooter .atmTextMobile{
+color: #fff !important;
+    font-size: 14px !important;
+}
+ @media only screen and (max-width: 991px) {
+.JDPower_icon img {
+  margin-top: 0px !important;
+    margin-bottom: 8px;
+    display: inline-block;
+    margin-left: 9px;
+}
+}
+
+.mobileAppStore a:focus{
+	outline: -webkit-focus-ring-color auto 1px;
+	outline-offset: 1px;
+}
+
+.mobileAppStore .JDPower_text:focus{
+	outline: -webkit-focus-ring-color auto 1px;
+	outline-offset: 1px;
+}
+
+.cbolui-ddl-pre footer.citiFooter a{
+	color:white !important;
+}
+.cbolui-ddl-pre footer.citiFooter .header-3, .cbolui-ddl-pre footer.citiFooter .large .popover-title, .cbolui-ddl-pre footer.citiFooter h3{
+
+	color:white !important;
+}
+.cbolui-ddl-pre .citiFooter .footerDisclaimerSection small, .cbolui-ddl-pre .accitiFooter .footerDisclaimerSection small p{
+	color:white !important;
+}
