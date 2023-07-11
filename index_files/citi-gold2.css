@@ -1,0 +1,276 @@
+body {
+ font-size: 0.9rem !important; 
+}
+
+/* css adjustments for state selector in JIRA 1964*/ 
+.cbolui-ddl-pre .e-2-tool .modal-btn-reset {
+  margin: 0px;
+}
+
+.cbolui-ddl-pre .e-2-tool .header__e-2 p {
+	margin: 0;
+	font-size: 0.75rem; 
+	line-height: 40px;
+}
+/* css adjustments for state selector in JIRA 1964*/ 
+  
+
+.ClientName:after {
+ 	content: "Citigold" 
+}
+.bg_CitiGold1 {
+  background-color:#B4975A; 
+}
+.txt_CitiGold1 {
+  color:#78622A!important; 
+}
+.txt_CitiPriority1 {
+  color:#0E2A48!important; 
+}
+.cbolui-ddl-post .light.solid  {
+    background-color: rgba(255,255,255,1);
+}
+
+/* fix for default padding on mobile */ 
+.container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+/* Promo H modules to Gold */ 
+.promo-modules .gold-promo, .promo-modules .gold-promo .header-3, .promo-modules .gold-promo .h3 {
+    color: #FFF !important;
+    border-top: none;
+    border-bottom: none;
+    background-color: #78622A;
+}
+/* Header */ 
+/*.hero-5-background {
+    background-size: 100% 100% !important;
+    height: 500px;
+}*/
+.hero-5 {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+h1.txt_CitiGold1 {
+    font-size: 2.3rem !important;
+    line-height: 3rem !important;
+    margin-top: 25px !important;
+    margin-bottom: 0px !important;
+  	width: 100% !important;
+}
+
+h1 sup {
+  font-size: 75% !important;
+}
+
+h1.txt_CitiGold1 > nobr > strong {
+    font-family: Interstate_Bold,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+/* END Header */ 
+
+/* Center the Broker module */
+.b-5-5-copy .row-eq-height {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  
+}
+/* END Center the Broker module */
+
+/* Link to footnotes*/
+sup a {
+  color: #333 !important;
+  outline: 0;
+  border-bottom: 0px !important;
+  text-decoration: none !important; 
+}
+
+strong sup a {
+  font-weight: 900;
+} 
+
+
+
+ span.chevron-link {
+    background-position: top 55% right 0;
+    background-repeat: no-repeat;
+    padding-right: 12px;
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encodâ€¦%3E%0A%20%20%20%20%20%20%20%20%3C/g%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E);
+    color: #056DAE;
+    text-decoration: none;
+    background-color: transparent; 
+}
+
+.cbolui-ddl-post .contact-us .contact-us-content .contact-us-option .contact-us-option-content .contact-us-copy {
+  max-width: 360px !important;  
+}
+
+.greybckgrd {
+ background-color: #eee !important; 
+}
+
+strong.col-lg-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.learn-about-icon{
+  margin-right: 10px; 
+}
+.b-5-5-copy .b-5-5-text-wrap p{
+      font-size: .8rem !important;
+}
+div.table-responsive>.table>tbody>tr>td, div.table-responsive>.table>tbody>tr>th, div.table-responsive>.table>tfoot>tr>td, div.table-responsive>.table>tfoot>tr>th, div.table-responsive>.table>thead>tr>td, div.table-responsive>.table>thead>tr>th, 
+  .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+   white-space: normal !important; 
+  }
+
+.b-5-copy .header-6 {
+  text-transform: none !important;
+}
+
+strong.col-xs-3 {
+  padding: 0px !important; 
+}
+
+ ol>li:nth-child(n+10) {
+    margin-left: 0px !important;
+}
+
+.contact-us-option-content .contact-us-copy a.underline {
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.list-check-mark {
+   padding-left: 20px;
+}
+.header-2 {
+  font-size: 2.1rem;
+  line-height: 2.725rem;
+  
+}
+abbr {
+ speak-as: spell-out;
+}
+.phone-number{
+  speak-as: digits;
+}
+
+caption {
+    border-top: 1px solid rgba(0,0,0,.25);
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.hero-5-textbox .hero-5-copy .hero-button, .btn-primary {
+  font-size: 15px !important;
+  width: auto !important;
+  margin: 0;
+  text-align: center;
+}
+
+  /* Media queries */ 
+/*-- screen-md --*/ 
+@media (max-width: 991px) {
+      .hero-5-background {
+      background-size: cover;
+      background-repeat: no-repeat;
+	}
+   
+  }
+/*-- screen-sm --*/   
+@media (max-width: 768px) {
+    .hero-5-background {
+      /*background-size: 100% !important;*/
+      background-repeat: no-repeat;
+      background-position-x: 50%;
+	}
+  
+ .hero-5-textbox .hero-5-copy {
+    margin: 30px !important;
+ }
+
+ .hero-5-textbox .hero-5-copy .hero-button, .btn-primary {
+    right:13px ;
+  }
+/*  .showcase .image-container img {
+    -webkit-transform: translateX(-55%) scale(1.00) !important;
+    transform: translateX(-55%) scale(1.00) !important;
+}*/
+  }
+/*-- screen-xs --*/
+@media (max-width: 480px) {
+  .showcase .image-container img {
+    -webkit-transform: translateX(-50%) scale(1.00) !important;
+    transform: translateX(-50%) scale(1.00) !important;
+}
+   .hero-5-textbox .hero-5-copy {
+    margin: 0px !important;
+ }
+  
+      .hero-5-background {
+      background-size: 100% !important;
+      background-repeat: no-repeat;
+     /* background-position-x: 50%;*/
+	}
+
+  .row.hero-5.topfix {
+     padding-top: 160px !important;
+    } 
+  
+   .hero-5-textbox .hero-5-copy .hero-button, .btn-primary {
+  right: auto;
+}
+   
+  }
+/*-- Galaxy 5S --*/
+@media (max-width: 360px) {
+  
+    .table>thead>tr>th, .table>tbody>tr>td {
+    padding: 16px 30px 12px !important;
+  }
+
+    .row.hero-5.topfix {
+     padding-top: 100px !important;
+    }
+
+  .hero-5-textbox .hero-5-copy .hero-button, .btn-primary {
+    right: 5px;
+  }
+
+  }
+/*-- iPhone 5--*/ 
+@media (max-width: 320px) {
+ 
+  .contact-us-copy {
+  	max-width: 244px !important;
+  }
+  
+  .btn-primary {
+    margin-left: -20px !important;
+  }
+  
+  .table>thead>tr>th, .table>tbody>tr>td {
+    padding: 16px 20px 12px !important;
+  }
+
+    .row.hero-5.topfix {
+     padding-top: 80px !important;
+    } 
+  
+  .breadcrumb>li, ul.breadcrumb li {
+   font-size: 0.8rem !important; 
+  }
+  
+  h1.header-2 {
+    font-size: 2.625rem !important;
+    line-height: 3.125rem !important;
+    
+  }
+}
+ 

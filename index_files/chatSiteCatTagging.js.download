@@ -1,0 +1,45 @@
+jQuery(document).on('click', '#lpButtonDiv .LPMcontainer img', function () {
+    console.log("customLinkClick event triggered in live chat button");
+    window.citiData.custLink = "live chat clicked";
+    window.Bootstrapper.ensEvent.trigger("customLinkClick");
+});
+jQuery(document).on('click', '#lpButtonNeedHelp .lpLinkFlyout', function () {
+    console.log("customLinkClick event triggered in chat with us link");
+    window.citiData.custLink = "chat with us clicked";
+    window.Bootstrapper.ensEvent.trigger("customLinkClick");
+});
+jQuery(document).on('click', '#lpChat .lp_close-icon img', function () {
+    if (window.siteCatrealTimeSessionId !== undefined
+        && window.siteCatSkill
+        && window.siteCatlpChatType) {
+            window.citiData.digHelpType = window.siteCatlpChatType + "|" + window.siteCatSkill;
+            window.citiData.eventlist = "digHelpEnded";
+            window.citiData.digHelpSessionID = window.siteCatrealTimeSessionId;
+        console.log("close button click with chatType :" + window.sitCatlpChatType + " , skill : " + window.siteCatSkill + " RTSID : " + window.siteCatrealTimeSessionId);
+        window.Bootstrapper.ensEvent.trigger("digitalHelpClick");
+    }
+});
+jQuery(document).on('click', '#lpChat .lp_confirm_button',function(){
+    console.log("session data cleared for siteCatTagging");
+    delete window.siteCatrealTimeSessionId;
+    delete window.siteCatSkill;
+    delete window.siteCatlpChatType;
+});
+lpTag.events.bind("lpUnifiedWindow", "conversationInfo", function (data) {
+    if (data.state === undefined
+        && data.conversationId !== undefined
+        && data.skill !== undefined) {
+
+        var lpChatType = "browser-messaging";
+        var realTimeSessionId = data.conversationId;
+        var skill = data.skill;
+        window.siteCatlpChatType = lpChatType;
+        window.siteCatSkill = skill;
+        window.siteCatrealTimeSessionId = realTimeSessionId;
+        window.citiData.digHelpType = lpChatType + "|" + skill;
+        window.citiData.eventlist = "digHelpInteraction";
+        window.citiData.digHelpSessionID = realTimeSessionId;
+        console.log("send button click with chatType :" + lpChatType + " , skill : " + skill + " RTSID : " + realTimeSessionId);
+        window.Bootstrapper.ensEvent.trigger("digitalHelpClick");
+    }
+});
