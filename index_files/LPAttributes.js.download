@@ -1,0 +1,426 @@
+//  The file must be hosted on Citi server. No changes are required at this time
+//  Referenced variables are defined in main HMTL file
+//  Commented code is provided in case it is needed later.    
+
+
+
+var lpCType = "";
+
+(function setCType() {  // NOSONAR
+	  var lpSkipRestCtype="";
+	  if (typeof(VisitorType) !== "undefined" && VisitorType !== null) {
+	    lpCType = VisitorType; //ao or cbol
+    }
+	  if (typeof (userBranding) !== "undefined" && userBranding !== null && userBranding === "CPC") {
+		lpCType = lpCType.trim();
+		lpCType = lpCType + "-cpc";
+	  } else {
+		  if(typeof(IsCPCI) !== "undefined" && IsCPCI !== null && IsCPCI === "Y"){
+			  lpCType= lpCType + "-ipb-cpci";
+			  lpSkipRestCtype = "Y";
+		  }else if(typeof(IsIPB) !== "undefined" && IsIPB !== null && IsIPB === "Y" && typeof(IsGEB) !== "undefined" && IsGEB !== null && IsGEB === "Y"){
+			  lpCType= lpCType + "-ipb-geb";
+		  }else if(typeof(IsIPB) !== "undefined" && IsIPB !== null && IsIPB === "Y" && typeof(IsGEB) !== "undefined" && IsGEB !== null && IsGEB === "N"){
+			  lpCType= lpCType + "-ipb";
+			  if(/gold/i.test(CBOL_UserSegment)){
+				  lpCType = lpCType + "-ci";    
+			  }
+		  }
+		  if (typeof (CBOL_UserSegment) !== "undefined" && CBOL_UserSegment !== null && lpSkipRestCtype !== "Y") {
+			  lpCType = lpCType.trim();
+			  if (/gold/i.test(CBOL_UserSegment)) {
+				  lpCType = lpCType + "-gold";
+			  } else if (typeof (messagingCustomerType) !== "undefined" && messagingCustomerType !== null && messagingCustomerType === "RIA") {
+          lpCType = lpCType + "-ria";
+        } else if (/priority/i.test(CBOL_UserSegment)) {
+				  lpCType = lpCType + "-priority";
+			  } else if (/blue/i.test(CBOL_UserSegment)) {
+				  lpCType = lpCType + "-blue";
+			  } else if (/sbob/i.test(CBOL_UserSegment)) {
+				  lpCType = lpCType + "-sbob";
+			  } else {
+				  lpCType = lpCType + CBOL_UserSegment.trim();
+				  // unrecognized CBOL_UserSegment
+			  }
+		  }
+	  }
+
+	  if (typeof (PID) !== "undefined" && PID !== null && lpSkipRestCtype !== "Y") {
+		  if (/cbol/.test(VisitorType)) {
+			  lpCType = lpCType + "-mrc";
+		  }
+		  if (/(520)|(521)|(522)|(524)|(525)|(526)/.test(PID)) {
+			  lpCType = lpCType + "-costco";
+		  } else if (/(249)|(252)|(051)/.test(PID)) {
+			  lpCType = lpCType + "-CardBusiness";
+		  }
+	  }
+	  if (typeof(CopsUser) !== "undefined" && CopsUser !== null && /true/i.test(CopsUser) && lpSkipRestCtype !=="Y") {
+	    lpCType = lpCType + "-collections";
+	  }
+
+	  lpCType = lpCType.toLowerCase();
+	  
+	})();
+
+var lpCStatus = "";
+
+(function setCStatus() { // NOSONAR
+
+  if (typeof(ChatEligible) !== "undefined" && ChatEligible !== null) {
+    if(ChatEligible ==="true" || ChatEligible ==="True" || ChatEligible ==="TRUE" ){lpCStatus = "ChatEligible"; }// For Mortgage
+  }
+  if (typeof(HomePhInd) !== "undefined" && HomePhInd !== null && typeof(MobPhInd) !== "undefined" && MobPhInd !== null) {
+    if (HomePhInd === 'D' || MobPhInd === 'D') { //  For Collections
+      lpCStatus = "Unverified User";
+    }
+    if (MobPhInd === 'V' || MobPhInd === 'W') { // For Collections
+      lpCStatus = "Cease_and_Desist";
+    }
+    if (HomePhInd === 'V' || HomePhInd === 'W') { //  For Collections
+      lpCStatus = "Cease_and_Desist";
+    }
+  }
+  lpCStatus = lpCStatus.toLowerCase();
+})();
+
+var lpChannel = "";
+
+(function setChannel() {
+
+  if (typeof(Originations_ISL) !== "undefined" && Originations_ISL !== null) {
+    lpChannel = Originations_ISL; // For Mortgage
+  }
+  if (typeof(ContentType) !== "undefined" && ContentType !== null) {
+    lpChannel = ContentType;
+  }
+  lpChannel = lpChannel.toLowerCase();
+})();
+
+var lpCampaignID = "";
+
+(function setCampaignID() {
+
+  if (typeof(Originations_ContactID) !== "undefined" && Originations_ContactID !== null) {
+    lpCampaignID = Originations_ContactID; // For Mortgage
+  }
+  if (typeof(ContentIDS) !== "undefined" && ContentIDS !== null) {
+    lpCampaignID = ContentIDS;
+  }
+  lpCampaignID = lpCampaignID.toLowerCase();
+})();
+
+var lpAffiliate = "";
+
+(function setAffiliate() {
+
+  if (typeof(Originations_ISN) !== "undefined" && Originations_ISN !== null) {
+    lpAffiliate = Originations_ISN; // For Mortgage
+  }
+  if (typeof(Reinstatement_Indicator) !== "undefined" && Reinstatement_Indicator !== null) {
+    lpAffiliate = Reinstatement_Indicator;
+  }
+  lpAffiliate = lpAffiliate.toLowerCase();
+})();
+
+var myObj = {}
+
+var LPCustomerInfo = {
+  "type": "ctmrinfo", //MANDATORY
+  "info": {
+    "lastPaymentDate":{},
+    "registrationDate":{}
+  }
+};
+
+myObj = LPCustomerInfo.info;
+if (typeof(lpCStatus) !== "undefined" && lpCStatus !== null && lpCStatus !=="") { myObj["cstatus"] = lpCStatus; }
+if (typeof(lpCType) !== "undefined" && lpCType !== null && lpCType !=="") { myObj["ctype"] = lpCType; }
+if (typeof(AccountNumber) !== "undefined" && AccountNumber !== null && AccountNumber !=="") { myObj["customerId"] = AccountNumber; }
+if (typeof(MinimumPastDue) !== "undefined" && MinimumPastDue !== null && MinimumPastDue !=="") { myObj["balance"] = MinimumPastDue; }
+if (typeof(AccountStatusCode) !== "undefined" && AccountStatusCode !== null && AccountStatusCode !=="") { myObj["socialId"] = AccountStatusCode; }
+if (typeof(interdiction_result) !== "undefined" && interdiction_result !== null && interdiction_result !=="") { myObj["imei"] = interdiction_result; }
+if (typeof(Member_ID) !== "undefined" && Member_ID !== null && Member_ID !=="") { myObj["userName"] = Member_ID; }
+// if (typeof(companySize) !== "undefined" && companySize !== "null" && companySize !=="") { myObj["companySize") = companySize; }
+if (typeof(CCSID) !== "undefined" && CCSID !== null && CCSID !=="") { myObj["accountName"] = CCSID; }
+if (typeof(CustomerRole) !== "undefined" && CustomerRole !== null && CustomerRole !=="") { myObj["role"] = CustomerRole; }
+
+myObj = LPCustomerInfo.info.lastPaymentDate;
+if (typeof(PaymentDate) !== "undefined" && PaymentDate !== null && PaymentDate !=="") { 
+  myObj["day"] = PaymentDate.substring(8,10);
+  myObj["month"] = PaymentDate.substring(5,7);
+  myObj["year"] = PaymentDate.substring(0,4);
+};
+
+myObj = LPCustomerInfo.info.registrationDate;
+if (typeof(DueByDate) !== "undefined" && DueByDate !== null && DueByDate !=="") { 
+  myObj["day"] = DueByDate.substring(8,10);
+  myObj["month"] = DueByDate.substring(5,7);
+  myObj["year"] = DueByDate.substring(0,4);
+};
+
+var LPPersonalInfo = {
+  "type": "personal",
+  "personal": {
+    "age":{},
+    "contacts":{}
+  }
+};
+
+myObj = LPPersonalInfo["personal"];
+if (typeof(CustomerName) !== "undefined" && CustomerName !== null && CustomerName !=="") {
+  myObj["firstname"] = CustomerName.substring(0,CustomerName.lastIndexOf(" "));
+  myObj["lastname"] = CustomerName.substring(CustomerName.lastIndexOf(" ")+1,CustomerName.length);
+  // if (typeof(Gender) !== "undefined" && Gender !== "null" && Gender !=="") { myObj["gender") = Gender };
+  if (typeof(PID) !== "undefined" && PID !== null && PID !=="") { myObj["company"] = PID };
+}
+
+myObj = LPPersonalInfo["personal"]["age"];
+if (typeof(PersonAge) !== "undefined" && PersonAge!== null && PersonAge !== "") { myObj["age"] = PersonAge };
+if (typeof(BirthDate) !== "undefined" && BirthDate !== null && BirthDate !=="") { 
+  myObj["day"] = BirthDate.substring(8,10);
+  myObj["month"] = BirthDate.substring(5,7);
+  myObj["year"] = BirthDate.substring(0,4);
+};
+
+myObj = LPPersonalInfo["personal"]["contacts"];
+if (typeof(Email) !== "undefined" && Email !== null && Email !=="") { myObj["email"] = Email };
+var myPhone;
+if (typeof(HomePhNum) !== "undefined" && HomePhNum !== null && HomePhNum !=="") { myPhone = HomePhNum; };
+if (typeof(MobPhNum) !== "undefined" && MobPhNum !== null && MobPhNum !=="") { myPhone = myPhone + "|" + MobPhNum };
+if (typeof(BusPhNum) !== "undefined" && BusPhNum !== null && BusPhNum !=="") { myPhone = myPhone + "|" + BusPhNum };
+if (typeof(myPhone) !== "undefined" && myPhone !== null && myPhone !=="") { myObj["phone"] = myPhone };
+
+var LPMarketingSource = {
+  "type": "mrktInfo", //MANDATORY
+  "info": {}
+};
+
+myObj = LPMarketingSource["info"];
+if (typeof(lpChannel) !== "undefined" && lpChannel !== null && lpChannel !=="") { myObj["channel"] = lpChannel };
+if (typeof(lpAffiliate) !== "undefined" && lpAffiliate !== null && lpAffiliate !=="") { myObj["affiliate"] = lpAffiliate };
+if (typeof(lpCampaignID) !== "undefined" && lpCampaignID !== null && lpCampaignID !=="") { myObj["campaignId"] = lpCampaignID };
+
+var LPLead = {
+  "type": "lead", //MANDATORY
+    "lead":{}
+  //	"lead": {
+  //		"topic": ,    
+  //		"value": ,
+  //		"leadId": 
+  //    }
+};
+
+var LPServiceActivity = {
+  "type": "service", //MANDATORY
+    "service":{}
+  //	"service": {
+  //		"topic": "",
+  //		"status": "",
+  //		"category": serviceCategory,
+  //		"serviceId": serviceServiceID 			
+  //    }
+};
+
+
+var LPErrorArray = [];
+
+function setErrorCode(errorVariable, errorCode, errorMessage) {
+  if (typeof(errorVariable) !== "undefined" && errorVariable!== null && errorVariable !== "") {
+    var LPError = {
+      "type": "error", //MANDATORY
+      "error": {
+        "message": errorMessage,
+        "code": errorCode
+      }
+    };
+    LPErrorArray.push(LPError);
+  }
+}
+
+// Please get requirements from business - you can think of "errorMessage" like
+// operator alerts. We are hardcoding error code and error message, can be set
+// to whatever makes most sense.
+if (typeof(LIKELY_TO_ATTRITE) !== "undefined"){
+	setErrorCode(LIKELY_TO_ATTRITE, "001", "Visitor Likely to Attrite");
+}
+//setErrorCode(ErrorFlag, "002", "Visitor Generated Error");
+//setErrorCode(AO_LockedOut, "003", "Visitor Locked Out");
+//setErrorCode(DisputeProcess, "004", "DisputeProcess Indicated");
+
+
+/*var LPError = {
+//	"type": "error",  //MANDATORY
+//	"error": {
+//		"message": ,
+//		"code": 
+//    }
+};*/
+
+
+/*
+ //		"quantity": cartProduct2Quantity
+    },
+
+    {
+      "product": { // Repeat for as many products are in cart, changing the JS variable for each, e.g. cartProduct2Name
+        "name": "AvailableSpend",
+        //		"category": "AvailableSpend",
+        //		"sku": cartProduct2Sku,
+        "price": AvailableSpend
+      },
+
+      //		"quantity": cartProduct2Quantity
+    },
+
+    {
+      "product": { // Repeat for as many products are in cart, changing the JS variable for each, e.g. cartProduct2Name
+        "name": "SpendLimit",
+        //		"category": "SpendLimit",
+        //		"sku": cartProduct2Sku,
+        "price": SpendLimit
+      },
+
+      //		"quantity": cartProduct2Quantity
+    }
+
+  ]
+};
+
+var LPOrder = {
+  "type": "purchase", //MANDATORY
+  //	"total": purchaseTotal,
+  //	"orderId": purchaseOrderID,
+  "cart": {
+    "products": {
+      "product": { // Repeat for as many products are in cart
+        "name": "EnteredAmount",
+        "category": "Make a Payment",
+        //			"sku": purchaseProduct1Sku,
+        "price": EnteredAmount
+      },
+      //		"quantity": purchaseProduct1Quantity
+    }
+  }
+};
+
+var LPProductView = {
+  "type": "prodView", //MANDATORY
+  "products": [{
+      "product": { // Repeat for as many products viewed, same as in LPCart
+        "name": ProductTypes,
+        //			"category": prodviewProduct1Category,
+        //			"sku": prodviewProduct1Sku,
+        //			"price": prodviewProduct1Price
+      }
+    }, {
+      "product": {
+        "name": "AO_DisputeAmount",
+        "category": "DisputeProcess",
+       // "sku": DisputeProcess,
+        "price": AO_DisputeAmount
+      }
+    },
+
+    {
+      "product": {
+        "name": "AO_QueueReason",
+        //			"category": prodviewProduct2Category,
+        //			"sku": prodviewProduct2Sku,
+        "price": AO_queue_reason
+      }
+    },
+
+    {
+      "product": {
+        "name": "QueueValue",
+        //			"category": prodviewProduct2Category,
+        //			"sku": prodviewProduct2Sku,
+        "price": QueueValue
+      }
+    }
+
+
+
+  ]
+};
+
+*/
+
+if (typeof LPCustomerInfo !== "undefined") {lpTag.sdes.push(LPCustomerInfo)};
+if (typeof LPPersonalInfo !== "undefined") {lpTag.sdes.push(LPPersonalInfo)};
+if (typeof LPMarketingSource !== "undefined") {lpTag.sdes.push(LPMarketingSource)};
+if (typeof LPLead !== "undefined") {lpTag.sdes.push(LPLead)};
+if (typeof LPCart !== "undefined") {lpTag.sdes.push(LPCart)};
+if (typeof LPProductView !== "undefined") {lpTag.sdes.push(LPProductView)};
+if (typeof LPOrder !== "undefined") {lpTag.sdes.push(LPOrder)};
+for (i = 0; i < LPErrorArray.length; i++) { 
+  //Because we can send many different error EAs so long as they have unique error codes / messages, 
+  //we run through a check list in attributes file to set error flags.
+  if (typeof LPErrorArray[i] !== "undefined") {lpTag.sdes.push(LPErrorArray[i])};
+}
+//if (typeof LPError !== "undefined") {lpTag.sdes.push(LPError)};
+if (typeof LPServiceActivity !== "undefined") {lpTag.sdes.push(LPServiceActivity)};
+
+//var init for tracking info
+var lpChatType="";
+var lpAgentName="";
+var lpCoBrowse="";
+
+
+//offer impression
+    lpTag.events.bind("LP_OFFERS","OFFER_IMPRESSION",function(data){
+        /*if(data.engagementType<5){lpChatType="Proactive";}else{lpChatType="Reactive";}
+        if(data.state==1){
+          s.linkTrackVars='prop48,eVar55,eVar38,events'; 
+          s.linkTrackEvents='event30'; 
+          s.prop48=pageName+'|Chat Offered'; 
+          s.eVar55=lpChatType+"|"+data.engagementName;
+          s.event30 = "Chat Offered";
+          s.eVar38=pageName; s.events='event30'; 
+          s.tl(this,'o',s.prop48);
+        }*/
+    });
+
+//chat interactive (both agent and visitor have said something)
+
+    lpTag.events.bind("lpUnifiedWindow","conversationInfo",function(data){
+        if(data.state=="chatting"){lpAgentName=data.agentName;}else if(data.state=="interactive"){
+            s.linkTrackVars='prop48,eVar55,eVar57,eVar38,events';
+            s.linkTrackEvents='event31';
+            s.prop48=pageName+'|Chat Interacted'; 
+            s.eVar38=pageName; 
+            s.eVar55=lpChatType+'|'+data.skill; 
+            s.eVar57=data.conversationId; 
+            s.event30 = "Chat Interacted";
+            s.events='event31';
+            s.tl(this,'o',s.prop48);
+        }
+    });
+
+//chat ended
+    lpTag.events.bind("lpUnifiedWindow","conversationInfo",function(data){
+        console.log(data);
+        if(data.state=="ended"){
+            console.log('in ended');
+            s.linkTrackVars='eVar20,eVar55,eVar57'; 
+            s.eVar20=lpCoBrowse+' Form:End Conversation'; 
+            s.eVar55=lpChatType+'|'+data.skill; 
+            s.eVar57=data.conversationId; 
+            s.tl(this,'o',s.eVar20);
+        }
+    });
+
+//chat ended
+    lpTag.events.bind("lpUnifiedWindow","cobrowseAccepted",function(data){
+        lpCoBrowse="Co-Browse";
+    });
+ // Initialize the lpTag namespace and the identity array, if the identity function is placed above the tag.
+    //var lpTag = {};
+    lpTag.identities = [];
+    lpTag.identities.push(identityFn);
+    function identityFn(callback) {
+    	callback(
+    			{ iss: "Citi", acr: "loa1", sub: "livechat" }
+    	);
+    }
