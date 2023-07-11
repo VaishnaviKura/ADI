@@ -1,0 +1,143 @@
+var isMember ="N";
+if(!false && !false && false ){
+isMember = "Y";
+}
+var isPrelogin = "Y";
+$(document).ready(function(){ 
+$('#zipcode-selector').remove(); // Removed Zipcode selector section
+if(window.location.href.indexOf("CitigoldOverview") >= 0 || window.location.href.indexOf("CitiPriorityOverview") >= 0 || window.location.href.indexOf("CitigoldCompare") >= 0 || window.location.href.indexOf("CitiPriorityCompare") >= 0){
+$('#stateSelector').remove(); 
+$('#stateSelectorModal').remove(); 
+}
+var cookiedState = getCookie("GoverningState");
+		$('#stateSelectorModal').on('shown.bs.modal',function(){
+			$("#stateSelectorModalLabel").focus();
+		});
+		
+		if(document.cookie.indexOf("GoverningState") == -1 || ( isPrelogin == 'Y' && '""' == cookiedState)){
+		    $('#stateSelectorModal').modal({backdrop: 'true', keyboard: false}) ;
+		}
+		else{
+		    if('""' == cookiedState || null == cookiedState  || undefined == cookiedState){
+				$('#stateSelector .container-fluid .header__e-2 p#stateError').css('display','block');
+			}
+			else{
+				$('#stateSelector .container-fluid .header__e-2 p#stateInfoPara').css('display','block');
+	            if(_locale.substring(0,5) == "en_US"){
+	                if(cookiedState=="SX"){
+	                    $('#regionId').text("SD/Southeast Region");
+	                }
+	                else if(cookiedState=="CA" || cookiedState=="CT" || cookiedState=="DC" || cookiedState=="FL" || cookiedState=="IL" || cookiedState=="MD" || cookiedState=="NJ" || cookiedState=="NY" || cookiedState=="NV" || cookiedState=="TX" || cookiedState=="VA"){
+	                    $('#regionId').text(cookiedState + " Region");
+	                }
+	                else{
+	                    $('#regionId').text("SD/National Region");
+	                }
+	            }
+	            else{
+	                if(cookiedState=="SX"){
+	                    document.getElementById('regionId').innerHTML=decodeURI('SD/Regi&oacute;n del Sudeste');
+	                }
+	                else if(cookiedState=="CA" || cookiedState=="CT" || cookiedState=="DC" || cookiedState=="FL" || cookiedState=="IL" || cookiedState=="MD" || cookiedState=="NJ" || cookiedState=="NY" || cookiedState=="NV" || cookiedState=="TX" || cookiedState=="VA"){
+	                    document.getElementById('regionId').innerHTML= cookiedState + decodeURI(' Regi&oacute;n');
+	                }
+	                else{
+	                    document.getElementById('regionId').innerHTML=decodeURI('SD/Regi&oacute;n Nacional');
+	                }
+	            }
+			}
+		}
+
+
+	 $(".select-btn__e-2").on( "click", function(e) {
+		var currDate = new Date();
+		var expiry = new Date(currDate .getTime() +1000*60*60*24*365).toUTCString();
+		var selectedState = $("#stateSelectorSelectId").val();
+		if(selectedState == null){
+			$("#stateSelectorModal").modal({"backdrop": "static"});
+			$("#stateSelectorSelectId").addClass("validation-input-danger");
+			$("#stateErrorID").removeClass("hide").addClass("validation-input-danger validation-message-danger inline-error show");
+		}else{
+		
+		$("#stateSelectorModal").modal("hide");
+		document.cookie = "GoverningState="+selectedState +";expires="+expiry +";path=/";
+		    var stateSelectorForm = document.createElement("form");
+                    stateSelectorForm.method = "post";
+		   			//stateSelectorForm.action='/US/JRSAO/ao_online/saveLocation.do'; //after removig this action the page loaded
+   		   			stateSelected = document.createElement("input");
+                    stateSelected.value = selectedState;
+                    stateSelected.name = "stateSelected";
+
+    		    stateSelectorForm.appendChild(stateSelected);
+		    targetedUrl= document.createElement("input");
+                    //targetedUrl.value = targetUrl;
+                    targetedUrl.name = "targetUrl";
+                    stateSelectorForm.appendChild(targetedUrl);
+					document.body.appendChild(stateSelectorForm);
+    		    	stateSelectorForm.submit();
+					document.body.removeChild(stateSelectorForm);
+					location.reload;
+   			 return false;
+		}
+	});
+
+	$("button.button.modal-btn-reset").on( "click", function() {
+		$('#stateSelectorModal').modal({backdrop: 'true', keyboard: false}) ;
+	});
+
+
+	$(".e-2-cancel-btn, .close").on( "click", function(e) {
+		var cookiedState = getCookie("GoverningState");
+		e.preventDefault();
+		$("#stateSelectorModal").modal("hide");
+		
+		if(cookiedState == "" || cookiedState == '""'){		
+			window.location.replace("/US/login.do");
+		}else{
+			$("#stateSelectorModal").modal("hide");
+		}
+	});
+	$('#stateSelectorModal').on('hidden.bs.modal', function () {
+		clearStateErrorValidation();
+		$("#stateSelectorSelectId").val("");
+		var cookiedState = getCookie("GoverningState");
+		if(cookiedState == "" || cookiedState == '""'){		
+			window.location.replace("/US/login.do");
+		}
+	});
+	$('#stateSelectorSelectId').on('click', function () {
+		$(".modal-footer label#i51Label").removeClass("text-input-label").addClass("stateSelectorLabel").css({transition: 'opacity .3s ease-in-out'});
+	});
+	
+	$('#stateSelectorSelectId').on('focus', function () {
+		$(".modal-footer label#i51Label").removeClass("text-input-label").addClass("stateSelectorLabel").css({transition: 'opacity .3s ease-in-out'});
+	});
+
+	$('#stateSelectorSelectId').on('blur', function () {
+		$(".modal-footer label#i51Label").removeClass("stateSelectorLabel").addClass("text-input-label");
+	});
+
+
+
+});
+
+function clearStateErrorValidation(){
+	$("#stateSelectorSelectId").removeClass("validation-input-danger");
+	$("#stateErrorID").addClass("hide").removeClass("validation-input-danger validation-message-danger inline-error show");
+	$(".modal-footer label#i51Label").removeClass("stateSelectorLabel");
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
+}

@@ -1,0 +1,23 @@
+
+
+.container-fluid {
+    padding-left: 20px ;
+    padding-right: 20px ;
+}
+
+#signonOverlay div.adjustModalWidth {
+ margin-left: auto !important; 
+margin-right: auto !important; 
+}
+
+@media  (max-width: 480px) {
+#signonOverlay div.adjustModalWidth { 
+max-width: 100%;
+	}
+}
+
+@media  (max-width: 322px) {
+#footer-ap { 
+font-size: 11.5px !important;
+	}
+}
