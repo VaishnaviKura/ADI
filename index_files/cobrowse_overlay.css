@@ -1,0 +1,368 @@
+#cobrowseDialogueBox p {
+
+	font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Interstate_Light,sans-serif,Arial,sans-serif;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+#cobrowseDialogueBox input.snumber {
+    font-size: 14px;
+}
+
+#cobrowseDialogueBox .snumber {
+	width: 95%;
+	padding: 11px 15px;
+	border: 1px #ccc;
+	font-size: 14px;
+	background: #f2f2f2;
+	margin-top: 20px;
+	/*margin-bottom: 15px;*/
+	border-radius: 5px;
+}
+
+#cobrowseDialogueBox .snumber:focus {
+	border: 1px solid #6ba9d2;
+}
+
+#cobrowseDialogueBox .cancelbtn {
+	background: none !important;
+	color: inherit;
+	border: none;
+	padding: 0 !important;
+	    text-decoration: underline;
+	cursor: pointer;
+	color: #337ab7;
+	margin: 0px 0px 0px 20px;
+	font-size: 15px;
+}
+
+#cobrowseDialogueBox .okbtn {
+	color: white;
+	background-color: #056dae;
+	border-radius: 4px;
+	border: 1px solid transparent;
+	width: 20%;
+	height: 40px;
+	padding: 8px 14px !important;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+#cobrowseDialogueBox #overlay_header {
+	
+	margin: 0;
+    font-size: 2.625rem;
+    /*line-height: 3.125rem; */
+    font-family: Interstate_Light,sans-serif;
+    color: #333;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+	/*margin-top: 25px;*/
+}
+
+#cobrowseDialogueBox #footer {
+	margin-top: 20px;
+	text-align: right;
+}
+
+#cobrowseDialogueBox-parent .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+    background-color: white;
+}
+
+#cobrowseDialogueBox a {
+	text-decoration: underline;
+}
+
+
+#cobrowseModalWithTextInput #myModalWithTextInputBody #i51 {
+	background-color: #eee;
+}
+
+#cobrowseModalWithTextInput #myModalWithTextInputBody #i51:focus {
+	background-color: white;
+}
+
+a#co-browse {
+    cursor: pointer;
+}
+
+
+html {
+	font-size: 100%;
+}
+
+
+.cbolui-ddl .modal-content {
+    background-color: #fff;
+}
+
+
+
+
+/* Added for issue faced in DDL 1.0 */
+
+
+div#cobrowseModalWithTextInput .modal-header {
+    padding: 3% !important;
+}
+
+div#cobrowseModalWithTextInput  div#myModalWithTextInputBody {
+        /* padding: 3% !important; */
+    padding: 0% 0% 0% 3% !important;
+}
+
+div#cobrowseModalWithTextInput  .modal-footer.text-right {
+    padding: 3% !important;
+}
+
+div#cobrowseModalWithTextInput  .modal-content {
+    padding: 2% !important;
+}
+
+div#cobrowseModalWithTextInput  h2#myModalWithTextInputLabel {
+    margin: 0% !important;
+}
+
+div#cobrowseModalWithTextInput  p {
+    margin: 0% !important;
+}
+
+div#cobrowseModalWithTextInput  .form-group.col-md-12.col-sm-12.col-xs-12 {
+    padding: 0% 0% 0% 0% !important;
+}
+
+div#cobrowseModalWithTextInput  button.btn.btn-link {
+	text-decoration: underline;
+}
+
+/*JFPUX alignment issue */
+div#cobrowseDialogueBox-parent a.ui-dialog-titlebar-close.ui-corner-all {
+    right: 12px!important;
+}
+
+.appShowNone { 
+        display :none; 
+} 
+
+
+div#cobrowseDialogueBox { 
+    background-color: white !important; 
+    background-image: none !important; 
+} 
+
+
+
+div#cobrowseDialogueBox-parent .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix { 
+        border:none; 
+        padding: 0 !important; 
+} 
+
+div#cobrowseDialogueBox-parent { 
+    height: 392px !important; 
+    background-color: white; 
+} 
+
+div#cobrowseDialogueBox { 
+    height: 357px !important; 
+} 
+
+
+div#cobrowseDialogueBox-parent .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix a.ui-dialog-titlebar-close.ui-corner-all span.ui-icon.ui-icon-closethick {
+   background: url(/JFP/images/widgets/jfpw-sprite.png) -280px -40px no-repeat !important; 
+   height: 10px !important; 
+   margin-top : 10px !important; 
+} 
+
+
+div#cobrowseDialogueBox-parent .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix a.ui-dialog-titlebar-close.ui-corner-all span.ui-icon.ui-icon-closethick:hover {
+        background-position: -240px -40px !important; 
+}
+@media only screen and (min-width: 768px) {
+div#manualCobrowseOverlay .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 42px;
+    font-weight: bold;
+    text-decoration: none!important;
+}
+
+div#manualCobrowseOverlay .close:hover, .close:focus {
+    color: #000;
+    text-decoration: none!important;
+    cursor: pointer;
+}
+
+div#manualCobrowseOverlay { 
+	background-color:white;
+	z-index: 9999999999;
+	outline: 0px;
+	height: 400px;
+	width: 780px;
+	top: 351px;
+	left: 20%;
+	padding: 20px;
+	padding-top: 0px!important;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid #aaa;
+} 
+
+#manualCobrowseOverlay #manual_overlay_header{
+margin: 0;
+font-size: 2.625rem;
+line-height: 3.125rem;
+font-family: Interstate_Light,sans-serif;
+color: #333;
+font-weight: 400;
+text-transform: none;
+letter-spacing: normal;
+margin-top: 25px;
+}
+
+div#manualCobrowseOverlay p {
+font-size: 15px;
+line-height: 25px;
+font-family:
+Interstate_Light,sans-serif,Arial,sans-serif;
+margin-top: 13px;
+margin-bottom: 0px;
+}
+
+
+#manualCobrowseOverlay .okbtn {
+color: white;
+background-color: #056dae;
+border-radius: 4px;
+border: 1px solid transparent;
+width: 20%;
+height: 40px;
+padding: 8px 14px!important;
+cursor: pointer;
+font-size: 15px;
+font-weight: 700;
+}
+
+#manualCobrowseOverlay .cancelbtn {
+background: none !important;
+color: inherit;
+border: none;
+padding: 0 !important;
+text-decoration: underline;
+cursor: pointer;
+color: #337ab7;
+margin: 0px 0px 0px 20px;
+font-size: 15px;
+margin: 20px
+}
+
+#manualCobrowseOverlay input {
+background: #f2f2f2;
+font-size: 14px;
+width: 95%;
+padding: 11px 15px;
+border: 1px #ccc;
+font-size: 14px;
+background: #f2f2f2;
+margin-top: 20px;
+margin-bottom: 15px;
+border-radius: 5px;
+}  
+  
+}
+
+@media only screen and (max-width: 767px) {
+div#manualCobrowseOverlay .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none!important;
+}
+
+div#manualCobrowseOverlay .close:hover, .close:focus {
+    color: #000;
+    text-decoration: none!important;
+    cursor: pointer;
+}
+
+div#manualCobrowseOverlay {
+	display:none; 
+	background-color:white;
+	z-index: 1002;
+	outline: 0px;
+	height: 220px;
+	width: 320px;
+	top: 171px;
+	left: 7.5%;
+	padding: 10px;
+	padding-top: 0px!important;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid #aaa;
+} 
+
+#manualCobrowseOverlay #manual_overlay_header{
+margin: 0;
+font-size: 1.212rem;
+line-height: 1.5rem;
+font-family: Interstate_Light,sans-serif;
+color: #333;
+font-weight: 400;
+text-transform: none;
+letter-spacing: normal;
+margin-top: 12px;
+}
+
+div#manualCobrowseOverlay p {
+font-size: 8px;
+line-height: 12px;
+font-family:
+Interstate_Light,sans-serif,Arial,sans-serif;
+margin-top: 7px;
+margin-bottom: 0px;
+}
+
+
+#manualCobrowseOverlay .okbtn {
+color: white;
+background-color: #056dae;
+border-radius: 2px;
+border: 1px solid transparent;
+width: 20%;
+height: 20px;
+padding: 4px 7px!important;
+cursor: pointer;
+font-size: 8px;
+font-weight: 700;
+}
+
+#manualCobrowseOverlay .cancelbtn {
+background: none !important;
+color: inherit;
+border: none;
+padding: 0 !important;
+text-decoration: underline;
+cursor: pointer;
+color: #337ab7;
+margin: 0px 0px 0px 20px;
+font-size: 7px;
+margin: 10px
+}
+
+#manualCobrowseOverlay input {
+background: #f2f2f2;
+font-size: 7px;
+width: 95%;
+padding: 7px 8px;
+border: 1px #ccc;
+font-size: 7px;
+background: #f2f2f2;
+margin-top: 10px;
+margin-bottom: 7.5px;
+border-radius: 2.5px;
+}  
+}

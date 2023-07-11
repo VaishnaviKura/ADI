@@ -1,0 +1,47 @@
+
+/***smooth scrolling***/
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top-10
+            }, 900);
+            return false;
+          }
+        }
+      });
+
+    $(".tabs a").on ("click", function(){
+      $(".tabs").removeClass ("active");
+      $(this).parent().addClass("active");
+      $(this).parent().parent().removeClass ("first");
+      $(this).parent().parent().removeClass ("second");
+      $(this).parent().parent().removeClass ("third");
+      $(this).parent().parent().addClass($(this).attr("tab"));
+
+    });
+	
+	$(document).ready(function() {
+
+    var section = getParameterByName("section");
+    if (section != null) {
+            $("#"+section).fadeIn("fast");
+            $('html, body').animate({
+        scrollTop: $("#"+section).offset().top-100
+    }, 2000);
+        }
+      
+/* added to avoid the ADA issue of the ID */ 
+    $("a[ID^='cmlink']").attr('id', function() {return this.id +"_"+ this.name});   
+/* Removed because it trigger and ADA issue */ 
+      $("meta[name=viewport]").remove();  
+   
+});
+
+/*get parameter*/
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}

@@ -1,0 +1,111 @@
+
+$jq("link[href$='CBOLClassic.min.css']").remove();
+$jq("link[href$='US-Regional.css']").remove();
+$jq("link[href$='top_nav.css']").remove();
+$jq("link[href$='jfp.css']").remove();
+ var _f="NO";
+ var isLEChatDisable=false;
+
+
+
+
+
+ $(document).ready(function(){
+var targetElement; //fix for defect #6062
+$("a.speedBump").on("click", function(e){
+			e.preventDefault();
+			targetElement = $(this); //fix for defect #6062
+			setTimeout(function(){
+				openlink(e);
+			},200)
+		});
+		function openlink(e){
+	      	var rel;
+			var el = $(e.target);
+        	if (el.is("a")){
+					e.preventDefault();
+					window.rel = el.attr('href');
+        	}   
+        	else{
+            		window.rel = el.parent().attr('href');
+       		}
+			$('#speedBumpModal').modal({backdrop: 'false', keyboard: false}) ;
+		}		
+		$("#overlayBtn").on("click", function(e){
+			e.preventDefault();
+			OpenInNewTab(rel);
+			$("#speedBumpModal").modal('hide');
+            $(".modal-backdrop").remove();
+			$(targetElement).focus(); //fix for defect #6062
+        if (typeof SpeedTag === "undefined") {
+         } else {
+             SpeedTagCnt(SpeedTagCurrent);
+         }
+		});
+		//fix for defect #6062
+		$("#speedBumpModal button.close").on("click", function(){
+			$("#speedBumpModal").modal('hide');
+           	$(".modal-backdrop").remove();
+			$(targetElement).focus(); 
+		});
+		
+		/* Accordion menu fix 
+		$('.accordion').each(function() {
+        	var accordion = new CM.Accordion(this);
+        	accordion.init();
+    	});*/
+});
+function OpenInNewTab(url) {
+	  var win = window.open(url, '_blank');
+	  win.focus();
+}
+ $(document).ready(function(){
+//logic for FDIC logo on BrandingCommonFooter  
+// NEW selector
+jQuery.expr[':'].Contains = function(a, i, m) {
+  return jQuery(a).text().toUpperCase()
+      .indexOf(m[3].toUpperCase()) >= 0;
+};
+
+{  
+  if (/helpcenter/g.test(window.location.href)) {
+   $("div#FDIC").empty();
+  } else if ( $("#miranda").length || $("#invest-miranda").length ){
+    $("div#FDIC").empty();
+  } else if ( $(".miranda").length || $(".cM-disclaimerBold").length || $(".hnw_footer_title").length) {
+   $("div#FDIC").empty();
+  } else if ( $("p:Contains('NOT FDIC INSURED')").length || $("b:Contains('NOT FDIC INSURED')").length || $("strong:Contains('NOT FDIC INSURED')").length) {
+   $("div#FDIC").empty();
+  } else if ( $("p:Contains('ASEGURADOS POR LA FDIC')").length || $("b:Contains('ASEGURADOS POR LA FDIC')").length || $("strong:Contains('ASEGURADOS POR LA FDIC')").length) {
+  $("div#FDIC").empty();
+  } else if ( (/userType=BB/g.test(window.location.href))) {  // add for M1602160 CBOL Mantein 
+	  $("div#FDIC").empty();	 				      // hide content for BB pages 
+	  $("div#Housing").empty(); 					
+  } else  {
+ // alert (' ')
+  }
+ }
+
+/* Removed because it trigger and ADA issue */ 
+      $("meta[name=viewport]").remove();  
+   });
+
+/*  scrollTo plugin function for jQuery */
+$.fn.scrollTo = function( target, options, callback ){
+  if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
+  var settings = $.extend({
+    scrollTarget  : target,
+    offsetTop     : 0,
+    duration      : 500,
+    easing        : 'swing'
+  }, options);
+  return this.each(function(){
+    var scrollPane = $(this);
+    var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
+    var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top + scrollPane.scrollTop() - parseInt(settings.offsetTop);
+    scrollPane.animate({scrollTop : scrollY }, parseInt(settings.duration), settings.easing, function(){
+      if (typeof callback == 'function') { callback.call(this); }
+    });
+  });
+}
+
